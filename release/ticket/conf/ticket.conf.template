@@ -50,8 +50,8 @@ http {
         #server <PAR_LOCALIP> max_fails=3;
         #server <PAR_LOCALIP>:8888 max_fails=3;
     }
-    lua_package_path '"/root/ticket_src/release/ticket/conf/?.lua" .. ";/root/ticket_src/release/ticket/conf/lua_conf/?.lua"';
-    init_by_lua ' package.path = package.path .. ";/root/ticket_src/release/ticket/conf/?.lua"
+    lua_package_path '"/root/ticket_proj/release/ticket/conf/?.lua" .. ";/root/ticket_proj/release/ticket/conf/lua_conf/?.lua"';
+    init_by_lua ' package.path = package.path .. ";/root/ticket_proj/release/ticket/conf/?.lua"
                  require("LuaXml");
                 ';
     server {
@@ -67,7 +67,7 @@ http {
         #access_log  logs/host.access.log  main;
         #no such: FastCGI sent in stderr: "Primary script unknown"
         location / { 
-            root   /root/ticket_src/release/ticket/html;
+            root   /root/ticket_proj/release/ticket/html;
             index  index.php index.html index.htm;
         } 
         #use upstream
@@ -86,25 +86,25 @@ http {
         }
         location /search {
             #default_type 'text/plain';
-            content_by_lua_file /root/ticket_src/release/ticket/conf/search.lua;
+            content_by_lua_file /root/ticket_proj/release/ticket/conf/search.lua;
         }
         location /verify {
             #default_type 'text/plain';
-            content_by_lua_file /root/ticket_src/release/ticket/conf/verify.lua;
+            content_by_lua_file /root/ticket_proj/release/ticket/conf/verify.lua;
         }
         location /order {
             default_type 'text/plain';
-            content_by_lua_file /root/ticket_src/release/ticket/conf/order.lua;
+            content_by_lua_file /root/ticket_proj/release/ticket/conf/order.lua;
         }
         location /pay {
             default_type 'text/plain';
-            content_by_lua_file /root/ticket_src/release/ticket/conf/pay.lua;
+            content_by_lua_file /root/ticket_proj/release/ticket/conf/pay.lua;
         }
         location ~ \.php$ {
-            root           /root/ticket_src/release/ticket/html/ ;
+            root           /root/ticket_proj/release/ticket/html/ ;
             fastcgi_pass   127.0.0.1:9000;
             fastcgi_index  index.php;
-            fastcgi_param  SCRIPT_FILENAME  /root/ticket_src/release/ticket/html/$fastcgi_script_name;
+            fastcgi_param  SCRIPT_FILENAME  /root/ticket_proj/release/ticket/html/$fastcgi_script_name;
             include        fastcgi_params;
         } 
         #error_page  404              /404.html;

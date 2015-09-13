@@ -85,7 +85,7 @@ fi
 yum -y install php-fpm.x86_64
 #/etc/init.d/php-fpm restart
 /usr/sbin/php-fpm -D
-chmod +x /root /root/ticket_src /root/ticket_src/release /root/ticket_src/release/ticket /root/ticket_src/release/ticket/html
+chmod +x /root /root/ticket_proj /root/ticket_proj/release /root/ticket_proj/release/ticket /root/ticket_proj/release/ticket/html
 yum -y install php-mysql.x86_64
 
 #mysql

@@ -20,7 +20,7 @@ yum install automake;
 yum install libtool.x86_64;
 cd ../libsrc/json-c-json-c-0.11-20130402/;./autogen.sh;./configure --prefix=/usr/;mv -f libtool libtool.bak;ln -s -T /usr/bin/libtool libtool;make; make install;cd -;
 #cd ../libsrc/json-c-json-c-0.11-20130402/;mv libtool libtool.bak;ln -s -T /usr/bin/libtool libtool;./autogen.sh;./configure --prefix=/usr/;make; make install;cd -;
-cd ../libsrc/LuaXML_101012/;make;cp LuaXML_lib.so /usr/local/lib/lua/5.1/;cp LuaXml.lua ~/ticket_src/release/ticket/conf/;cd -;
+cd ../libsrc/LuaXML_101012/;make;cp LuaXML_lib.so /usr/local/lib/lua/5.1/;cp LuaXml.lua ~/ticket_proj/release/ticket/conf/;cd -;
 
 exist=$(egrep '/usr/local/lib/' /etc/ld.so.conf);
 if [ "$exist" == "" ];then 
@@ -35,4 +35,4 @@ fi;
 #./Configure --with-debug --add-module=drizzle-nginx-module --add-module=rds-json-nginx-module --add-module=ngx_devel_kit --add-module=lua-nginx-module --add-module=headers-more-nginx-module --with-cc-opt=-DDDEBUG=1 --with-cc-opt='-g -O0'  --prefix=/data/menshen/scan 
 #./Configure --with-debug --add-module=drizzle-nginx-module --add-module=rds-json-nginx-module --add-module=ngx_devel_kit --add-module=lua-nginx-module --with-cc-opt=-DDDEBUG=1 --with-cc-opt='-g -O0'  --prefix=/root/server/ticket/ --with-http_ssl_module --with-openssl=./openssl
 #--add-module=encrypted-session-nginx-module
-./Configure --with-debug --add-module=rds-json-nginx-module --add-module=ngx_devel_kit --add-module=lua-nginx-module --with-cc-opt=-DDDEBUG=1 --with-cc-opt='-g -O0'  --prefix=/root/ticket_src/release/ticket/ --with-http_ssl_module
+./Configure --with-debug --add-module=rds-json-nginx-module --add-module=ngx_devel_kit --add-module=lua-nginx-module --with-cc-opt=-DDDEBUG=1 --with-cc-opt='-g -O0'  --prefix=/root/ticket_proj/release/ticket/ --with-http_ssl_module

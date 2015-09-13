@@ -14,7 +14,7 @@ cd /usr/local/bin/;ln -s -T /usr/bin/cscope cscope;cd -;
 
 #ticket
 cd /root/
-mkdir ticket_src;cd ticket_src;
+mkdir ticket_proj;cd ticket_proj;
 git init;
 #git remote add origin https://github.com/gogofly/sola.git;
 git remote add origin https://github.com/xiaozhang535/sola.git;
