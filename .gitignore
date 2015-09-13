@@ -1,0 +1,10 @@
+*.ini
+*.o
+*.so
+*.bak
+logs/
+cscope.*
+tags
+ticket.conf
+strategy_conf.lua
+ticket$
