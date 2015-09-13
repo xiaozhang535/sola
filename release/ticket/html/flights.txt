@@ -1,0 +1,88 @@
+
+Air Segment 1
+
+Key : mL3r3S2VT2au3LA23HsgAw==
+Group : 0
+Carrier : SY
+FlightNumber : 398
+Origin : SFO
+Destination : MSP
+DepartureTime : 2015-08-08T23:55:00.000-07:00
+ArrivalTime : 2015-08-09T05:22:00.000-05:00
+FlightTime : 207
+Distance : 1586
+ETicketability : Yes
+Equipment : 73G
+ChangeOfPlane : false
+ParticipantLevel : Standard AVS
+LinkAvailability : true
+PolledAvailabilityOption : No polled avail exists
+OptionalServicesIndicator : false
+AvailabilitySource : A
+AvailabilityDisplayType : Fare Shop/Optimal Shop
+
+Air Segment 2
+
+Key : T7eTmArcS3esDuqOL7ddXA==
+Group : 0
+Carrier : SY
+FlightNumber : 341
+Origin : MSP
+Destination : MCO
+DepartureTime : 2015-08-09T07:25:00.000-05:00
+ArrivalTime : 2015-08-09T11:28:00.000-04:00
+FlightTime : 183
+Distance : 1304
+ETicketability : Yes
+Equipment : 738
+ChangeOfPlane : false
+ParticipantLevel : Standard AVS
+LinkAvailability : true
+PolledAvailabilityOption : No polled avail exists
+OptionalServicesIndicator : false
+AvailabilitySource : A
+AvailabilityDisplayType : Fare Shop/Optimal Shop
+
+Air Segment 3
+
+Key : UoAKLKeWQl2kjxg1m4CDJg==
+Group : 0
+Carrier : DL
+FlightNumber : 806
+Origin : SFO
+Destination : MSP
+DepartureTime : 2015-08-08T00:30:00.000-07:00
+ArrivalTime : 2015-08-08T06:00:00.000-05:00
+FlightTime : 210
+Distance : 1586
+ETicketability : Yes
+Equipment : 763
+ChangeOfPlane : false
+ParticipantLevel : Secure Sell
+LinkAvailability : true
+PolledAvailabilityOption : Cached status used. Polled avail exists
+OptionalServicesIndicator : false
+AvailabilitySource : P
+AvailabilityDisplayType : Fare Shop/Optimal Shop
+
+Air Segment 4
+
+Key : 55CzDmooT86T/rP18HdrjA==
+Group : 0
+Carrier : DL
+FlightNumber : 1714
+Origin : MSP
+Destination : MCO
+DepartureTime : 2015-08-08T07:05:00.000-05:00
+ArrivalTime : 2015-08-08T11:10:00.000-04:00
+FlightTime : 185
+Distance : 1304
+ETicketability : Yes
+Equipment : 737
+ChangeOfPlane : false
+ParticipantLevel : Secure Sell
+LinkAvailability : true
+PolledAvailabilityOption : Cached status used. Polled avail exists
+OptionalServicesIndicator : false
+AvailabilitySource : P
+AvailabilityDisplayType : Fare Shop/Optimal Shop

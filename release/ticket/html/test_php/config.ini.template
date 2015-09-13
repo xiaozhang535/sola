@@ -1,0 +1,10 @@
+[db]
+db_host=127.0.0.1
+db_port=3306
+db_user=root
+db_passwd=datacenter123
+db_dbname=ticket_lua
+
+[ticketsrv]
+ticket_host=<PAR_LOCALIP>
+ticket_port=9091

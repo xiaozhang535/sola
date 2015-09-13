@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP:Body>
+    <air:LowFareSearchRsp xmlns:air="http://www.travelport.com/schema/air_v31_0" xmlns:common_v31_0="http://www.travelport.com/schema/common_v31_0" TraceId="trace" TransactionId="4D2D7EE40A07647788FC7BDBF5D67E39" ResponseTime="1933" DistanceUnits="MI" CurrencyType="USD">
+      <common_v31_0:ResponseMessage Code="4039" Type="Warning" ProviderCode="1G">"Result size exceeded the maximum allowable and some results were discarded. It may be necessary to narrow your search using search modifiers."</common_v31_0:ResponseMessage>
+      <common_v31_0:ResponseMessage Code="14" Type="Warning" ProviderCode="1G">FiledCurrency not supported.</common_v31_0:ResponseMessage>
+      <air:FlightDetailsList>
+        <air:FlightDetails Key="sPNCK+4RRGWerC3sr9asQw==" Origin="SFO" Destination="MSP" DepartureTime="2015-07-08T00:30:00.000-07:00" ArrivalTime="2015-07-08T06:02:00.000-05:00" FlightTime="212" TravelTime="462" Equipment="763" OnTimePerformance="90" OriginTerminal="1" DestinationTerminal="1"/>
+        <air:FlightDetails Key="mKPzTodUSIKclA2R9akCRw==" Origin="MSP" Destination="MCO" DepartureTime="2015-07-08T07:05:00.000-05:00" ArrivalTime="2015-07-08T11:12:00.000-04:00" FlightTime="187" TravelTime="462" Equipment="757" OnTimePerformance="90" OriginTerminal="1"/>
+      </air:FlightDetailsList>
+      <air:AirSegmentList>
+        <air:AirSegment Key="kB5jbXw0QGqRVc+vQXpaVw==" Group="0" Carrier="DL" FlightNumber="806" Origin="SFO" Destination="MSP" DepartureTime="2015-07-08T00:30:00.000-07:00" ArrivalTime="2015-07-08T06:02:00.000-05:00" FlightTime="212" Distance="1586" ETicketability="Yes" Equipment="763" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo BookingCounts="F9|P9|A9|G9|Y9|B9|M9|S9|H9|Q9|K9|L9|U9|T9|X9|V9|E9"/>
+          </air:AirAvailInfo>
+          <air:FlightDetailsRef Key="sPNCK+4RRGWerC3sr9asQw=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="XQe4nkjKQLyR5wniOQItNg==" Group="0" Carrier="DL" FlightNumber="1714" Origin="MSP" Destination="MCO" DepartureTime="2015-07-08T07:05:00.000-05:00" ArrivalTime="2015-07-08T11:12:00.000-04:00" FlightTime="187" Distance="1304" ETicketability="Yes" Equipment="757" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo BookingCounts="F9|P9|A9|G9|Y9|B9|M9|S9|H9|Q9|K9|L9|U9|T9|X9|V9|E9"/>
+          </air:AirAvailInfo>
+          <air:FlightDetailsRef Key="mKPzTodUSIKclA2R9akCRw=="/>
+        </air:AirSegment>
+      </air:AirSegmentList>
+      <air:FareInfoList>
+        <air:FareInfo Key="WfWRk80RSZqZWX2ECIVHZQ==" FareBasis="TA07A0VD" PassengerTypeCode="ADT" Origin="SFO" Destination="MCO" EffectiveDate="2015-07-02T05:11:00.000+00:00" DepartureDate="2015-07-08" Amount="USD196.28" NegotiatedFare="false" NotValidBefore="2015-07-08" NotValidAfter="2015-07-08">
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>0</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="WfWRk80RSZqZWX2ECIVHZQ==" ProviderCode="1G">gws-eJxNjEsOwyAQQw+DvPeQD7ADFWWV0kXSSmxy/2N0II0aIwaZsV+M0VImOtp4k8Fh8or3loECq/f5eEHCbD1EXQFV2BNd4ifjx/B99T8Dag9qlGej6m8tKpQ+t+XCDjDgMktqsVYeOZ7F7lLelQARD4ZwUQPp7sGG1FdRxxdIHy45</air:FareRuleKey>
+          <air:Brand Key="I5lLUsMfTP2/KVWuFN2m1Q==" BrandID="5769" UpSellBrandID="5770">
+            <air:UpsellBrand FareBasis="YUP" FareInfoRef="u0w5Te3US6ukXSTjTOGzTg=="/>
+          </air:Brand>
+        </air:FareInfo>
+        <air:FareInfo Key="Hf7sBsunQseutSt2IZpqhA==" FareBasis="TA07A0VD" PassengerTypeCode="INF" Origin="SFO" Destination="MCO" EffectiveDate="2015-07-02T05:11:00.000+00:00" DepartureDate="2015-07-08" Amount="USD0.00" NegotiatedFare="false" NotValidBefore="2015-07-08" NotValidAfter="2015-07-08">
+          <air:FareTicketDesignator Value="IN00"/>
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>0</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="Hf7sBsunQseutSt2IZpqhA==" ProviderCode="1G">gws-eJxNjMEOAiEMRD+GzH1KUJYbREJionhYNeGy//8Zlq7GHVKg7bzJOXvKiZE+H+SwuXrDa61Ah9e6Xx4gRH8dVOFZGAvfFV9+sdX/BAwzqpU7MXQ6ugrd7rXNyAAHtrOUaTGQYYesu/amNEQWMKVfYiLj0Tjj9NWo7QPUsyyL</air:FareRuleKey>
+          <air:Brand Key="mCPGZdJhQn+a4d5FAJHb4g==" BrandID="5769" UpSellBrandID="5770">
+            <air:UpsellBrand FareBasis="YUP" FareInfoRef="DRvdnrhcSY+Ibu40eqk/NQ=="/>
+          </air:Brand>
+        </air:FareInfo>
+        <air:FareInfo Key="u0w5Te3US6ukXSTjTOGzTg==" FareBasis="YUP" PassengerTypeCode="ADT" Origin="SFO" Destination="MCO" EffectiveDate="2015-07-02T05:11:00.000+00:00" DepartureDate="2015-07-08" Amount="USD1585.12" NegotiatedFare="false">
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>3</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="u0w5Te3US6ukXSTjTOGzTg==" ProviderCode="1G">gws-eJxNjLEOgzAMRD8mut0ORCRbKiKmNiABQxb+/zN6CZRylm3ZencxRivqZBAbHzI4THpjXxOQYdmfcYY679RCeWYIhbIvuPy+ff/VoTSGlFwwvyVTyG2u0x3ZwUCmQUXJVXcv/els1yttjICqh4Twiw11PMCayc2o4wux+S1y</air:FareRuleKey>
+          <air:Brand Key="tVuFBqQQSgillTzeqytT4w==" BrandID="5770" UpSellBrandFound="false"/>
+        </air:FareInfo>
+        <air:FareInfo Key="DRvdnrhcSY+Ibu40eqk/NQ==" FareBasis="YUP" PassengerTypeCode="INF" Origin="SFO" Destination="MCO" EffectiveDate="2015-07-02T05:11:00.000+00:00" DepartureDate="2015-07-08" Amount="USD0.00" NegotiatedFare="false">
+          <air:FareTicketDesignator Value="IN00"/>
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>0</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="DRvdnrhcSY+Ibu40eqk/NQ==" ProviderCode="1G">gws-eJxNjMEKwzAMQz8m6C6HjDa3wEpg0HmD0kMu/f/PmJJ1rDKxHfOkUkqk3TgxlosCjrCs2LcFcES95/0FwrQ5KKHtb5zWeVz/ldAGI4onrGtzCT76VntaQgDrZDQhw8j0NY3fw6vcMJvBnH+JubcL2OM0FXV8APPrK2w=</air:FareRuleKey>
+          <air:Brand Key="vWTozYp5Q6i6WJEFUPa9vA==" BrandID="5770" UpSellBrandFound="false"/>
+        </air:FareInfo>
+      </air:FareInfoList>
+      <air:RouteList>
+        <air:Route Key="ZGd5udYFQUCU/QAqCx/a9Q==">
+          <air:Leg Key="wbibRldrQD2YeDdIKkEnwA==" Group="0" Origin="SFO" Destination="ORL"/>
+        </air:Route>
+      </air:RouteList>
+      <air:AirPricingSolution Key="8SZMM49FTBqStPFqlCWKbQ==" TotalPrice="USD700.80" BasePrice="USD588.84" ApproximateTotalPrice="USD700.80" ApproximateBasePrice="USD588.84" Taxes="USD111.96" ApproximateTaxes="USD111.96">
+        <air:Journey TravelTime="P0DT7H42M0S">
+          <air:AirSegmentRef Key="kB5jbXw0QGqRVc+vQXpaVw=="/>
+          <air:AirSegmentRef Key="XQe4nkjKQLyR5wniOQItNg=="/>
+        </air:Journey>
+        <air:LegRef Key="wbibRldrQD2YeDdIKkEnwA=="/>
+        <air:AirPricingInfo Key="t4SHHx0zTIOT3+fFQh4+Ug==" TotalPrice="USD233.60" BasePrice="USD196.28" ApproximateTotalPrice="USD233.60" ApproximateBasePrice="USD196.28" Taxes="USD37.32" ApproximateTaxes="USD37.32" LatestTicketingTime="2015-07-01T23:59:00.000+00:00" PricingMethod="Guaranteed" ETicketability="No" PlatingCarrier="DL" ProviderCode="1G">
+          <air:FareInfoRef Key="WfWRk80RSZqZWX2ECIVHZQ=="/>
+          <air:BookingInfo BookingCode="T" CabinClass="Economy" FareInfoRef="WfWRk80RSZqZWX2ECIVHZQ==" SegmentRef="kB5jbXw0QGqRVc+vQXpaVw=="/>
+          <air:BookingInfo BookingCode="T" CabinClass="Economy" FareInfoRef="WfWRk80RSZqZWX2ECIVHZQ==" SegmentRef="XQe4nkjKQLyR5wniOQItNg=="/>
+          <air:TaxInfo Category="AY" Amount="USD5.60"/>
+          <air:TaxInfo Category="US" Amount="USD14.72"/>
+          <air:TaxInfo Category="XF" Amount="USD9.00">
+            <common_v31_0:TaxDetail Amount="USD4.50" OriginAirport="SFO"/>
+            <common_v31_0:TaxDetail Amount="USD4.50" OriginAirport="MSP"/>
+          </air:TaxInfo>
+          <air:TaxInfo Category="ZP" Amount="USD8.00">
+            <common_v31_0:TaxDetail Amount="USD4.00" OriginAirport="SFO"/>
+            <common_v31_0:TaxDetail Amount="USD4.00" OriginAirport="MSP"/>
+          </air:TaxInfo>
+          <air:FareCalc>SFO DL X/MSP DL ORL 196.28TA07A0VD USD196.28END</air:FareCalc>
+          <air:PassengerType Code="ADT"/>
+        </air:AirPricingInfo>
+        <air:AirPricingInfo Key="jU9OHvZdR+2U5SkB4dyaIA==" TotalPrice="USD233.60" BasePrice="USD196.28" ApproximateTotalPrice="USD233.60" ApproximateBasePrice="USD196.28" Taxes="USD37.32" ApproximateTaxes="USD37.32" LatestTicketingTime="2015-07-01T23:59:00.000+00:00" PricingMethod="Guaranteed" ETicketability="No" PlatingCarrier="DL" ProviderCode="1G">
+          <air:FareInfoRef Key="WfWRk80RSZqZWX2ECIVHZQ=="/>
+          <air:BookingInfo BookingCode="T" CabinClass="Economy" FareInfoRef="WfWRk80RSZqZWX2ECIVHZQ==" SegmentRef="kB5jbXw0QGqRVc+vQXpaVw=="/>
+          <air:BookingInfo BookingCode="T" CabinClass="Economy" FareInfoRef="WfWRk80RSZqZWX2ECIVHZQ==" SegmentRef="XQe4nkjKQLyR5wniOQItNg=="/>
+          <air:TaxInfo Category="AY" Amount="USD5.60"/>
+          <air:TaxInfo Category="US" Amount="USD14.72"/>
+          <air:TaxInfo Category="XF" Amount="USD9.00"/>
+          <air:TaxInfo Category="ZP" Amount="USD8.00">
+            <common_v31_0:TaxDetail Amount="USD4.00" OriginAirport="SFO"/>
+            <common_v31_0:TaxDetail Amount="USD4.00" OriginAirport="MSP"/>
+          </air:TaxInfo>
+          <air:FareCalc>SFO DL X/MSP DL ORL 196.28TA07A0VD USD196.28END</air:FareCalc>
+          <air:PassengerType Code="CNN"/>
+        </air:AirPricingInfo>
+        <air:AirPricingInfo Key="j/szq1zIRrGTO7/jlOM/NA==" TotalPrice="USD233.60" BasePrice="USD196.28" ApproximateTotalPrice="USD233.60" ApproximateBasePrice="USD196.28" Taxes="USD37.32" ApproximateTaxes="USD37.32" LatestTicketingTime="2015-07-01T23:59:00.000+00:00" PricingMethod="Guaranteed" ETicketability="No" PlatingCarrier="DL" ProviderCode="1G">
+          <air:FareInfoRef Key="WfWRk80RSZqZWX2ECIVHZQ=="/>
+          <air:BookingInfo BookingCode="T" CabinClass="Economy" FareInfoRef="WfWRk80RSZqZWX2ECIVHZQ==" SegmentRef="kB5jbXw0QGqRVc+vQXpaVw=="/>
+          <air:BookingInfo BookingCode="T" CabinClass="Economy" FareInfoRef="WfWRk80RSZqZWX2ECIVHZQ==" SegmentRef="XQe4nkjKQLyR5wniOQItNg=="/>
+          <air:TaxInfo Category="AY" Amount="USD5.60"/>
+          <air:TaxInfo Category="US" Amount="USD14.72"/>
+          <air:TaxInfo Category="XF" Amount="USD9.00"/>
+          <air:TaxInfo Category="ZP" Amount="USD8.00">
+            <common_v31_0:TaxDetail Amount="USD4.00" OriginAirport="SFO"/>
+            <common_v31_0:TaxDetail Amount="USD4.00" OriginAirport="MSP"/>
+          </air:TaxInfo>
+          <air:FareCalc>SFO DL X/MSP DL ORL 196.28TA07A0VD USD196.28END</air:FareCalc>
+          <air:PassengerType Code="CNN"/>
+        </air:AirPricingInfo>
+        <air:AirPricingInfo Key="6fOBkBKVTkuipMsRuY5jZg==" TotalPrice="USD0.00" BasePrice="USD0.00" ApproximateTotalPrice="USD0.00" ApproximateBasePrice="USD0.00" Taxes="USD0.00" ApproximateTaxes="USD0.00" LatestTicketingTime="2015-07-01T23:59:00.000+00:00" PricingMethod="Guaranteed" ETicketability="No" PlatingCarrier="DL" ProviderCode="1G">
+          <air:FareInfoRef Key="Hf7sBsunQseutSt2IZpqhA=="/>
+          <air:BookingInfo BookingCode="T" CabinClass="Economy" FareInfoRef="Hf7sBsunQseutSt2IZpqhA==" SegmentRef="kB5jbXw0QGqRVc+vQXpaVw=="/>
+          <air:BookingInfo BookingCode="T" CabinClass="Economy" FareInfoRef="Hf7sBsunQseutSt2IZpqhA==" SegmentRef="XQe4nkjKQLyR5wniOQItNg=="/>
+          <air:FareCalc>SFO DL X/MSP DL ORL 0.00TA07A0VD/IN00 USD0.00END</air:FareCalc>
+          <air:PassengerType Code="INF"/>
+        </air:AirPricingInfo>
+        <air:Connection SegmentIndex="0"/>
+      </air:AirPricingSolution>
+      <air:AirPricingSolution Key="JeqiYZo5R2SBqrkPgex7xg==" TotalPrice="USD5179.80" BasePrice="USD4755.36" ApproximateTotalPrice="USD5179.80" ApproximateBasePrice="USD4755.36" Taxes="USD424.44" ApproximateTaxes="USD424.44">
+        <air:Journey TravelTime="P0DT7H42M0S">
+          <air:AirSegmentRef Key="kB5jbXw0QGqRVc+vQXpaVw=="/>
+          <air:AirSegmentRef Key="XQe4nkjKQLyR5wniOQItNg=="/>
+        </air:Journey>
+        <air:LegRef Key="wbibRldrQD2YeDdIKkEnwA=="/>
+        <air:AirPricingInfo Key="1BRpUxUUROqqtqKyrPvPqA==" TotalPrice="USD1726.60" BasePrice="USD1585.12" ApproximateTotalPrice="USD1726.60" ApproximateBasePrice="USD1585.12" Taxes="USD141.48" ApproximateTaxes="USD141.48" LatestTicketingTime="2015-07-02T23:59:00.000+00:00" PricingMethod="Guaranteed" ProviderCode="1G">
+          <air:FareInfoRef Key="u0w5Te3US6ukXSTjTOGzTg=="/>
+          <air:BookingInfo BookingCode="P" CabinClass="First" FareInfoRef="u0w5Te3US6ukXSTjTOGzTg==" SegmentRef="kB5jbXw0QGqRVc+vQXpaVw=="/>
+          <air:BookingInfo BookingCode="P" CabinClass="First" FareInfoRef="u0w5Te3US6ukXSTjTOGzTg==" SegmentRef="XQe4nkjKQLyR5wniOQItNg=="/>
+          <air:TaxInfo Category="AY" Amount="USD5.60"/>
+          <air:TaxInfo Category="US" Amount="USD118.88"/>
+          <air:TaxInfo Category="XF" Amount="USD9.00"/>
+          <air:TaxInfo Category="ZP" Amount="USD8.00"/>
+          <air:PassengerType Code="ADT"/>
+        </air:AirPricingInfo>
+        <air:AirPricingInfo Key="Xdm4T7NoRzmacYOAd5NRNQ==" TotalPrice="USD1726.60" BasePrice="USD1585.12" ApproximateTotalPrice="USD1726.60" ApproximateBasePrice="USD1585.12" Taxes="USD141.48" ApproximateTaxes="USD141.48" LatestTicketingTime="2015-07-02T23:59:00.000+00:00" PricingMethod="Guaranteed" ProviderCode="1G">
+          <air:FareInfoRef Key="u0w5Te3US6ukXSTjTOGzTg=="/>
+          <air:BookingInfo BookingCode="P" CabinClass="First" FareInfoRef="u0w5Te3US6ukXSTjTOGzTg==" SegmentRef="kB5jbXw0QGqRVc+vQXpaVw=="/>
+          <air:BookingInfo BookingCode="P" CabinClass="First" FareInfoRef="u0w5Te3US6ukXSTjTOGzTg==" SegmentRef="XQe4nkjKQLyR5wniOQItNg=="/>
+          <air:TaxInfo Category="AY" Amount="USD5.60"/>
+          <air:TaxInfo Category="US" Amount="USD118.88"/>
+          <air:TaxInfo Category="XF" Amount="USD9.00"/>
+          <air:TaxInfo Category="ZP" Amount="USD8.00"/>
+          <air:PassengerType Code="CNN"/>
+        </air:AirPricingInfo>
+        <air:AirPricingInfo Key="AXUKmPNgTyWESY1GhM0zTw==" TotalPrice="USD1726.60" BasePrice="USD1585.12" ApproximateTotalPrice="USD1726.60" ApproximateBasePrice="USD1585.12" Taxes="USD141.48" ApproximateTaxes="USD141.48" LatestTicketingTime="2015-07-02T23:59:00.000+00:00" PricingMethod="Guaranteed" ProviderCode="1G">
+          <air:FareInfoRef Key="u0w5Te3US6ukXSTjTOGzTg=="/>
+          <air:BookingInfo BookingCode="P" CabinClass="First" FareInfoRef="u0w5Te3US6ukXSTjTOGzTg==" SegmentRef="kB5jbXw0QGqRVc+vQXpaVw=="/>
+          <air:BookingInfo BookingCode="P" CabinClass="First" FareInfoRef="u0w5Te3US6ukXSTjTOGzTg==" SegmentRef="XQe4nkjKQLyR5wniOQItNg=="/>
+          <air:TaxInfo Category="AY" Amount="USD5.60"/>
+          <air:TaxInfo Category="US" Amount="USD118.88"/>
+          <air:TaxInfo Category="XF" Amount="USD9.00"/>
+          <air:TaxInfo Category="ZP" Amount="USD8.00"/>
+          <air:PassengerType Code="CNN"/>
+        </air:AirPricingInfo>
+        <air:AirPricingInfo Key="5d5hrYWjS22r6+F8ev7XzQ==" TotalPrice="USD0.00" BasePrice="USD0.00" ApproximateTotalPrice="USD0.00" ApproximateBasePrice="USD0.00" Taxes="USD0.00" ApproximateTaxes="USD0.00" LatestTicketingTime="2015-07-02T23:59:00.000+00:00" PricingMethod="Guaranteed" ProviderCode="1G">
+          <air:FareInfoRef Key="DRvdnrhcSY+Ibu40eqk/NQ=="/>
+          <air:BookingInfo BookingCode="P" CabinClass="First" FareInfoRef="DRvdnrhcSY+Ibu40eqk/NQ==" SegmentRef="kB5jbXw0QGqRVc+vQXpaVw=="/>
+          <air:BookingInfo BookingCode="P" CabinClass="First" FareInfoRef="DRvdnrhcSY+Ibu40eqk/NQ==" SegmentRef="XQe4nkjKQLyR5wniOQItNg=="/>
+          <air:PassengerType Code="INF"/>
+        </air:AirPricingInfo>
+        <air:Connection SegmentIndex="0"/>
+      </air:AirPricingSolution>
+      <air:BrandList>
+        <air:Brand Key="1fAwr3YFRFKQZDRlE2KKhA==" BrandID="5769" Name="Main Cabin - Internal Name" BrandedDetailsAvailable="true" Carrier="DL">
+          <air:Title Type="External">Main Cabin - External Commercial Brand Name</air:Title>
+          <air:Title Type="Short">Short</air:Title>
+          <air:Text Type="Upsell">Main Cabin - Upsell Marketing Text</air:Text>
+          <air:Text Type="Strapline">Main Cabin - Strap Line</air:Text>
+          <air:ImageLocation Type="Upsell" ImageWidth="150" ImageHeight="150">https://merchandisingmanagement.pp.travelport.com/documents/10431/12001/Basiceconomy.png</air:ImageLocation>
+        </air:Brand>
+        <air:Brand Key="ceykOO+nRl6+cwqlpINW3A==" BrandID="5770" Name="First Class - Internal Name" BrandedDetailsAvailable="true" Carrier="DL">
+          <air:Title Type="External">First Class - External Commercial Brand Name</air:Title>
+          <air:Title Type="Short">Short</air:Title>
+          <air:Text Type="Upsell">First Class - Upsell Marketing Text</air:Text>
+          <air:Text Type="Strapline">First Class - Strap Line</air:Text>
+          <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://merchandisingmanagement.pp.travelport.com/documents/10431/12001/basiceco.png</air:ImageLocation>
+        </air:Brand>
+      </air:BrandList>
+    </air:LowFareSearchRsp>
+  </SOAP:Body>
+</SOAP:Envelope>

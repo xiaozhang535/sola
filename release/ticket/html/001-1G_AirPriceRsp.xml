@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP:Body>
+    <air:AirPriceRsp xmlns:air="http://www.travelport.com/schema/air_v31_0" xmlns:common_v31_0="http://www.travelport.com/schema/common_v31_0" TraceId="trace" TransactionId="E8FB015E0A076478F7E55053C48449EC" ResponseTime="7768">
+      <common_v31_0:ResponseMessage Code="4400" Type="Warning">No Merchandising optional services returned for Flight(s) [UA][1586]</common_v31_0:ResponseMessage>
+      <air:AirItinerary>
+        <air:AirSegment Key="Bb2RI+KjSFy4HcMMe84+Eg==" Group="0" Carrier="UA" FlightNumber="1586" ProviderCode="1G" Origin="SFO" Destination="MCO" DepartureTime="2015-08-05T06:30:00.000-07:00" ArrivalTime="2015-08-05T17:59:00.000-04:00" FlightTime="509" TravelTime="509" Distance="2438" ClassOfService="W" Equipment="739" NumberOfStops="1" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+          <air:FlightDetails Key="ZGyuxOlmSn+AeiKPUf8/gg==" Origin="SFO" Destination="ORD" DepartureTime="2015-08-05T06:30:00.000-07:00" FlightTime="258" TravelTime="258" Equipment="739" OriginTerminal="3" DestinationTerminal="1">
+            <air:Connection SegmentIndex="0" FlightDetailsIndex="1"/>
+            <air:Meals>FoodForPurchase</air:Meals>
+            <air:InFlightServices>Non-smoking</air:InFlightServices>
+            <air:InFlightServices>Non-smoking</air:InFlightServices>
+          </air:FlightDetails>
+          <air:FlightDetails Key="OVFu0YnsSHGQl4mkAN4qPg==" Origin="ORD" Destination="MCO" ArrivalTime="2015-08-05T17:59:00.000-04:00" FlightTime="174" TravelTime="174" Equipment="739" OriginTerminal="1">
+            <air:Meals>FoodAndBeveragesForPurchase</air:Meals>
+            <air:InFlightServices>Non-smoking</air:InFlightServices>
+            <air:InFlightServices>Non-smoking</air:InFlightServices>
+          </air:FlightDetails>
+        </air:AirSegment>
+      </air:AirItinerary>
+      <air:AirPriceResult>
+        <air:AirPricingSolution Key="ayTTA7EBQcSLKcFyJ1P6dw==" TotalPrice="CNY1898" BasePrice="USD269.77" ApproximateTotalPrice="CNY1898" ApproximateBasePrice="CNY1660" EquivalentBasePrice="CNY1660" Taxes="CNY238" ApproximateTaxes="CNY238" QuoteDate="2015-08-01">
+          <air:AirSegmentRef Key="Bb2RI+KjSFy4HcMMe84+Eg=="/>
+          <air:AirPricingInfo Key="oQbdXFAYTjaydPBpKshFNQ==" TotalPrice="CNY1898" BasePrice="USD269.77" ApproximateTotalPrice="CNY1898" ApproximateBasePrice="CNY1660" EquivalentBasePrice="CNY1660" ApproximateTaxes="CNY238" Taxes="CNY238" LatestTicketingTime="2015-08-02T23:59:00.000+10:00" PricingMethod="Manual" IncludesVAT="false" ETicketability="Yes" PlatingCarrier="UA" ProviderCode="1G">
+            <air:FareInfo Key="yL3BEUl6TFCPrZyd2B1THg==" FareBasis="WAA00AZN" PassengerTypeCode="ADT" Origin="SFO" Destination="MCO" EffectiveDate="2015-08-01T21:17:00.000+10:00" DepartureDate="2015-08-05" Amount="CNY1660" NotValidBefore="2015-08-05" NotValidAfter="2015-08-05">
+              <common_v31_0:Endorsement Value="NONREF/0VALUAFTDPT/CHGFEE"/>
+              <air:FareRuleKey FareInfoRef="yL3BEUl6TFCPrZyd2B1THg==" ProviderCode="1G">6UUVoSldxwi8YVpXmIrfwsbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA0v5WALzwHErO422wYI1U7dguxBNix7AA1/IXfluB151Qu0ZscBMSQ7AvMKi/VPtcudUnj/xsDuu3xlmQOQjE+afdLO1f1+DFWLgFn3B9sPd6v9tEaRJgF5C/YIEuJEelpGL74YNUBfVsbbOoAyZ1UFJTyB5x9tYSbUSm61kBU5OuGdrtUQs3wL6g5i15AO3QEACA4xcw3/+Ps2kBTFkA92F/oTXxxF6MRsvlJFXSYuYHZNO0IOqY3aUuA32Ku4i9d+JY2T4mE/2iYqD1taBKM9e1u/ZdGuhdafpkLd2H/NTccvr40e6Z37hTdRV2s3CuDzD4Wdjal2fly5qxZ3qLwOXLmrFneovA5cuasWd6i8DUAh2WcSFc+w=</air:FareRuleKey>
+              <air:Brand Key="kxLn2j47Ry+y7N4oCVBTCA==" BrandID="5575" UpSellBrandID="5574" Name="United Economy&#xAE;" Carrier="UA">
+                <air:Title Type="External">United Economy&#xAE;</air:Title>
+                <air:Title Type="Short">UAJ</air:Title>
+                <air:Text Type="MarketingConsumer">Economy Plus&#xAE; available* for sale on Smartpoint, check seat map for pricing
+
+Up to 5 extra inches of legroom with Economy Plus&#xAE;
+&#x2022;  Enjoy extra space to work and relax
+&#x2022;  Sit near the front of the Economy cabin
+&#x2022;  Earn Premier Qualifying Dollars
+
+*Not available on select regional aircraft
+
+Complimentary soft drinks, juices, tea and freshly brewed coffee
+
+Complimentary soft drinks, juices, tea and freshly brewed coffee
+
+Wines, beer and spirits available for purchase 
+
+A variety of snackboxes and a la carte items available for purchase on all flights longer than two hours
+
+Fresh food options available for most flights lasting longer than three hours
+
+A variety of entertainment options, including audio selections, movies and DIRECTV (available on flights within the 48 contiguous only)</air:Text>
+                <air:Text Type="Upsell">Economy Plus&#xAE; available for sale on Smartpoint, check seat map for pricing
+
+Up to 5 extra inches of legroom with Economy Plus&#xAE;
+&#x2022;  Enjoy extra space to work and relax
+&#x2022;  Sit near the front of the Economy cabin
+&#x2022;  Earn Premier Qualifying Dollars</air:Text>
+                <air:Text Type="MarketingAgent">Economy Plus&#xAE; available* for sale on Smartpoint, check seat map for pricing
+
+Up to 5 extra inches of legroom with Economy Plus&#xAE;
+&#x2022;  Enjoy extra space to work and relax
+&#x2022;  Sit near the front of the Economy cabin
+&#x2022;  Earn Premier Qualifying Dollars
+
+*Not available on select regional aircraft
+
+Complimentary soft drinks, juices, tea and freshly brewed coffee
+
+Complimentary soft drinks, juices, tea and freshly brewed coffee
+
+Wines, beer and spirits available for purchase 
+
+A variety of snackboxes and a la carte items available for purchase on all flights longer than two hours
+
+Fresh food options available for most flights lasting longer than three hours
+
+A variety of entertainment options, including audio selections, movies and DIRECTV (available on flights within the 48 contiguous only)</air:Text>
+                <air:Text Type="Strapline">Economy Plus&#xAE; available for sale on Smartpoint, check seat map for pricing</air:Text>
+                <air:ImageLocation Type="Upsell" ImageWidth="150" ImageHeight="150">https://merchandisingmanagement.travelport.com/documents/10431/13406/United-Travelport-Econ-150x150.jpg</air:ImageLocation>
+                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://merchandisingmanagement.travelport.com/documents/10431/13406/United-Travelport-Econ-150x150.jpg</air:ImageLocation>
+                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="150">https://merchandisingmanagement.travelport.com/documents/10431/13406/United-Travelport-Econ-150x150.jpg</air:ImageLocation>
+              </air:Brand>
+            </air:FareInfo>
+            <air:BookingInfo BookingCode="W" CabinClass="Economy" FareInfoRef="yL3BEUl6TFCPrZyd2B1THg==" SegmentRef="Bb2RI+KjSFy4HcMMe84+Eg=="/>
+            <air:TaxInfo Category="AY" Amount="CNY35" Key="H/gpQcjVTZahTEVjEY3UrA=="/>
+            <air:TaxInfo Category="US" Amount="CNY125" Key="Yro4Lyf1RW+lhFRnbcK91Q=="/>
+            <air:TaxInfo Category="XF" Amount="CNY28" Key="1pYaqN1nQIeHjiAdXywj1g==">
+              <common_v31_0:TaxDetail Amount="USD5.00" OriginAirport="SFO"/>
+            </air:TaxInfo>
+            <air:TaxInfo Category="ZP" Amount="CNY50" Key="t/P9XyEQSS2F7LMdySXMRA==">
+              <common_v31_0:TaxDetail Amount="USD4.00" OriginAirport="SFO"/>
+              <common_v31_0:TaxDetail Amount="USD4.00" OriginAirport="ORD"/>
+            </air:TaxInfo>
+            <air:FareCalc>SFO UA ORL 269.77WAA00AZN USD269.77END</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:ChangePenalty>
+              <air:Amount>CNY1230.0</air:Amount>
+            </air:ChangePenalty>
+            <air:BaggageAllowances>
+              <air:BaggageAllowanceInfo TravelerType="ADT" Origin="SFO" Destination="ORL" Carrier="UA">
+                <air:URLInfo>
+                  <air:URL>MYTRIPANDMORE.COM/BAGGAGEDETAILSUA.BAGG</air:URL>
+                </air:URLInfo>
+                <air:TextInfo>
+                  <air:Text>0P</air:Text>
+                  <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                </air:TextInfo>
+                <air:BagDetails ApplicableBags="1stChecked" BasePrice="USD25.00" ApproximateBasePrice="CNY153" TotalPrice="USD25.00" ApproximateTotalPrice="CNY153">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG AND UPTO62LI/158LCM</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+                <air:BagDetails ApplicableBags="2ndChecked" BasePrice="USD35.00" ApproximateBasePrice="CNY214" TotalPrice="USD35.00" ApproximateTotalPrice="CNY214">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG AND UPTO62LI/158LCM</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+              </air:BaggageAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="SFO" Destination="ORL" Carrier="UA">
+                <air:TextInfo>
+                  <air:Text>BAGGAGE ALLOWANCE DATA NOT AVAILABLE</air:Text>
+                </air:TextInfo>
+              </air:CarryOnAllowanceInfo>
+            </air:BaggageAllowances>
+          </air:AirPricingInfo>
+          <air:FareNote Key="mOaqvgFSRfCSJAxkKcOGEw==">RATE USED IN EQU TOTAL IS BSR 1USD - 6.125CNY</air:FareNote>
+          <air:FareNote Key="duOjLtNxQHy8e+DFh3l5AQ==">LAST DATE TO PURCHASE TICKET: 02AUG15</air:FareNote>
+          <air:FareNote Key="XTvrAAX0Sd2GkrugmfSSsQ==">TICKETING AGENCY 32P7</air:FareNote>
+          <air:FareNote Key="Z0s2TkROQqiY1qovqH4JMg==">DEFAULT PLATING CARRIER UA</air:FareNote>
+          <air:FareNote Key="PL0TYN7/SrK0ANH6RKJKyQ==">E-TKT REQUIRED</air:FareNote>
+          <air:FareNote Key="s0FrquefSkyKRvuP4D3d4A==">TICKETING FEES MAY APPLY</air:FareNote>
+        </air:AirPricingSolution>
+        <air:AirPricingSolution Key="IDMKvNk/RgqpMEXeg+AsUQ==" TotalPrice="CNY3607" BasePrice="USD529.30" ApproximateTotalPrice="CNY3607" ApproximateBasePrice="CNY3250" EquivalentBasePrice="CNY3250" Taxes="CNY357" ApproximateTaxes="CNY357" QuoteDate="2015-08-01">
+          <air:AirSegmentRef Key="Bb2RI+KjSFy4HcMMe84+Eg=="/>
+          <air:AirPricingInfo Key="di/i906HRTWDA92cjdGOLA==" TotalPrice="CNY3607" BasePrice="USD529.30" ApproximateTotalPrice="CNY3607" ApproximateBasePrice="CNY3250" EquivalentBasePrice="CNY3250" ApproximateTaxes="CNY357" Taxes="CNY357" LatestTicketingTime="2015-08-02T23:59:00.000+10:00" PricingMethod="Guaranteed" IncludesVAT="false" ProviderCode="1G">
+            <air:FareInfo Key="BIfNHEp+TyKFmUI9a1yeaA==" FareBasis="WAA00AZN" PassengerTypeCode="ADT" Origin="SFO" Destination="MCO" EffectiveDate="2015-08-01T21:17:00.000+10:00" DepartureDate="2015-08-05" Amount="CNY3250" PrivateFare="PrivateFare" NotValidBefore="2015-08-05" NotValidAfter="2015-08-05">
+              <air:FareTicketDesignator Value="UPDI"/>
+              <air:FareRuleKey FareInfoRef="BIfNHEp+TyKFmUI9a1yeaA==" ProviderCode="1G">6UUVoSldxwi8YVpXmIrfwsbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA0v5WALzwHErO422wYI1U7dguxBNix7AA3ZtJ5T7tBUsQu0ZscBMSQ7AvMKi/VPtcudUnj/xsDuu3xlmQOQjE+bJaILpOlUPi2LgFn3B9sPdO9AiVt4ZroBC/YIEuJEelpGL74YNUBfVsbbOoAyZ1UFJTyB5x9tYSbUSm61kBU5OldJbEL9rjZN76VqYa5hQYkACA4xcw3/+tJ4CGeB7LDqF/oTXxxF6MRsvlJFXSYuYHZNO0IOqY3aUuA32Ku4i9d+JY2T4mE/2iYqD1taBKM9geNEEyu7Gn/39+kvGv2VSccvr40e6Z35Tw4Kki4866cRi3goYJmkzy5YV9dV3U4CXLmrFneovA5cuasWd6i8D1UNnHv4jb8E=</air:FareRuleKey>
+              <air:Brand Key="N6eIR2idQnuWlXEdjcrSJg==" BrandID="5574" Name="United First" UpSellBrandFound="false" Carrier="UA">
+                <air:Title Type="External">United First</air:Title>
+                <air:Title Type="Short">UF</air:Title>
+                <air:Text Type="MarketingConsumer">Relax in extra-wide seats with added legroom
+
+Complimentary blankets available onboard for use during your flight
+
+Choose from complimentary wine, beer and spirits
+
+Receive one additional checked bag at no charge
+
+Hot towel service</air:Text>
+                <air:Text Type="Upsell">Treat yourself with a United First&#xAE; experience, with extra wide leather seats and expanded legroom.</air:Text>
+                <air:Text Type="MarketingAgent">Relax in extra-wide seats with added legroom
+
+Complimentary blankets available onboard for use during your flight
+
+Choose from complimentary wine, beer and spirits
+
+Receive one additional checked bag at no charge
+
+Hot towel service</air:Text>
+                <air:Text Type="Strapline">Treat yourself to the additional benefits of premium cabin seating</air:Text>
+                <air:ImageLocation Type="Upsell" ImageWidth="150" ImageHeight="150">https://merchandisingmanagement.travelport.com/documents/10431/13406/United-Travelport-Unit1st-150x150.jpg</air:ImageLocation>
+                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://merchandisingmanagement.travelport.com/documents/10431/13406/United-Travelport-Unit1st-150x150.jpg</air:ImageLocation>
+                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="150">https://merchandisingmanagement.travelport.com/documents/10431/13406/United-Travelport-Unit1st-150x150.jpg</air:ImageLocation>
+              </air:Brand>
+            </air:FareInfo>
+            <air:BookingInfo BookingCode="P" CabinClass="First" FareInfoRef="BIfNHEp+TyKFmUI9a1yeaA==" SegmentRef="Bb2RI+KjSFy4HcMMe84+Eg=="/>
+            <air:TaxInfo Category="AY" Amount="CNY35" Key="Q1D9542dQweF1268I///uw=="/>
+            <air:TaxInfo Category="US" Amount="CNY244" Key="wAeN7ry3QiyhVogsEjz8qQ=="/>
+            <air:TaxInfo Category="XF" Amount="CNY28" Key="2t/TDYS1QRq4K2u6eUtcHg=="/>
+            <air:TaxInfo Category="ZP" Amount="CNY50" Key="GNIaW2YbSH6OzXxtOUpwvA=="/>
+            <air:PassengerType Code="ADT"/>
+            <air:BaggageAllowances>
+              <air:BaggageAllowanceInfo TravelerType="ADT" Origin="SFO" Destination="ORL" Carrier="UA">
+                <air:URLInfo>
+                  <air:URL>MYTRIPANDMORE.COM/BAGGAGEDETAILSUA.BAGG</air:URL>
+                </air:URLInfo>
+                <air:TextInfo>
+                  <air:Text>0P</air:Text>
+                  <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                </air:TextInfo>
+                <air:BagDetails ApplicableBags="1stChecked" BasePrice="USD25.00" ApproximateBasePrice="CNY153" TotalPrice="USD25.00" ApproximateTotalPrice="CNY153">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG AND UPTO62LI/158LCM</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+                <air:BagDetails ApplicableBags="2ndChecked" BasePrice="USD35.00" ApproximateBasePrice="CNY214" TotalPrice="USD35.00" ApproximateTotalPrice="CNY214">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>UPTO50LB/23KG AND UPTO62LI/158LCM</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+              </air:BaggageAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="SFO" Destination="ORL" Carrier="UA">
+                <air:TextInfo>
+                  <air:Text>BAGGAGE ALLOWANCE DATA NOT AVAILABLE</air:Text>
+                </air:TextInfo>
+              </air:CarryOnAllowanceInfo>
+            </air:BaggageAllowances>
+          </air:AirPricingInfo>
+        </air:AirPricingSolution>
+      </air:AirPriceResult>
+    </air:AirPriceRsp>
+  </SOAP:Body>
+</SOAP:Envelope>

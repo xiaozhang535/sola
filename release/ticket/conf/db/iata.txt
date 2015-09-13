@@ -1,0 +1,1669 @@
+Q5              MLA             40-Mile Air, Ltd.                           
+                                                                            
+4O              AIJ             ABC Aerolineas S.A. de C.V.                 
+                                                                            
+M3              TUS             ABSA  -  Aerolinhas Brasileiras S.A.        
+                                                                            
+GB                              ABX Air, Inc.                               
+                                                                            
+9T                              ACT Havayollari A.S.                        
+                                                                            
+5N              AUL             AEROFLOT-NORD                               
+                                                                            
+LD              AHK             AHK Air Hong Kong Limited                   
+                                                                            
+9N              AJV             ANA & JP Express Co. ltd                    
+                                                                            
+6A              CHP             AVIACSA-Consorcio Aviaxsa, S.A. de C.V.     
+                                                                            
+GU                              AVIATECA, S.A.                              
+                                                                            
+JP              ADR             Adria Airways - The Airline of Slovenia     
+                                                                            
+A3              AEE             Aegean Airlines S.A.                        
+                                                                            
+KH                              Aeko Kula, Inc. DBA Aloha Air Cargo         
+                                                                            
+RE              REA             Aer Arann Express                           
+                                                                            
+EI              EIN             Aer Lingus Limited                          
+                                                                            
+4M                              Aero 2000 S.A.                              
+                                                                            
+EE                              Aero Airlines A.S.                          
+                                                                            
+AJ              NIG             Aero Contractors Nigeria Limited            
+                                                                            
+7T                              Aero Express del Ecuador  - Trans AM        
+                                                                            
+                MGE             Aero Micronesia Inc.                        
+                                                                            
+M0              MNG             Aero Mongolia                               
+                                                                            
+P7                              Aero Regional Paraguaya S.A.                
+                                                                            
+P5              RPB             Aero Republica S.A.                         
+                                                                            
+                QCL             Aero V.I.P. Ltda                            
+                                                                            
+7L              CRN             Aerocaribbean S.A.                          
+                                                                            
+A4                              Aerocomercial Oriente Norte Ltda            
+                                                                            
+SU              RCF             Aeroflot - Cargo                            
+                                                                            
+SU              AFL             Aeroflot Russian Airlines                   
+                                                                            
+D9              DNV             Aeroflot-Don                                
+                                                                            
+KG                              Aerogaviota  S.A.                           
+                                                                            
+5P              PCP             Aerolinea Principal Chile S.A.              
+                                                                            
+AR              ARG             Aerolineas Argentinas                       
+                                                                            
+3I                              Aerolineas Austral Chile S.A.               
+                                                                            
+2K              GLG             Aerolineas Galapagos S.A. Aerogal           
+                                                                            
+F2              RCQ             Aerolineas Regionales, S.A. de C.V          
+                                                                            
+DF              ABH             Aerolineas de Baleares AeBal                
+                                                                            
+5D              SLI             Aerolitoral S.A. de C.V.                    
+                                                                            
+AM              AMX             Aeromexico                                  
+                                                                            
+WL                              Aeroperlas                                  
+                                                                            
+VH                              Aeropostal Alas de Venezuela C.A.           
+                                                                            
+PQ                              Aerosur Paraguay S.A.                       
+                                                                            
+VV              AEW             Aerosvit Airlines                           
+                                                                            
+6I              IBZ             Aerosyncro Aviation AB                      
+                                                                            
+6R              TNO             Aerotransporte de Carga Union, S.A. de C    
+                                                                            
+M7              MAA             Aerotransportes Mas de Carga                
+                                                                            
+QA              CBE             Aerovias Caribe S.A. de C.V.                
+                                                                            
+AV              AVA             Aerovias del Continente Americano S.A       
+                                                                            
+FK                              Africa West                                 
+                                                                            
+                AIN             African International Airways               
+                                                                            
+8U              AAW             Afriqiyah Airways                           
+                                                                            
+ZI              AAF             Aigle Azur                                  
+                                                                            
+AH              DAH             Air Algerie                                 
+                                                                            
+K7              LMY             Air Almaty JSC                              
+                                                                            
+G9                              Air Arabia                                  
+                                                                            
+QN                              Air Armenia                                 
+                                                                            
+KC              KZR             Air Astana                                  
+                                                                            
+CC              ABD             Air Atlanta Icelandic                       
+                                                                            
+UU              REU             Air Austral                                 
+                                                                            
+W9                              Air Bagan Ltd.                              
+                                                                            
+BT                              Air Baltic Corporation SIA                  
+                                                                            
+ZU              BBT             Air Bashkortostan Ltd.                      
+                                                                            
+BM              OBE             Air Bee S.p.A                               
+                                                                            
+YL              BSA             Air Bissau International Lda                
+                                                                            
+BP              BOT             Air Botswana Corporation                    
+                                                                            
+BX                              Air Busan                                   
+                                                                            
+TY              TPC             Air Caledonie                               
+                                                                            
+SB              ACI             Air Caledonie International                 
+                                                                            
+AC              ACA             Air Canada                                  
+                                                                            
+QK              JZA             Air Canada Jazz                             
+                                                                            
+TX              FWI             Air Caraibes                                
+                                                                            
+2Q              SNC             Air Cargo Carriers, Inc.                    
+                                                                            
+                ACE             Air Charter Express Limited                 
+                                                                            
+CA                              Air China Cargo                             
+                                                                            
+A7              MPD             Air Comet S.A.                              
+                                                                            
+GI              IKA             Air Company ITEK-AIR Ltd.                   
+                                                                            
+4J                              Air Company Somon Air                       
+                                                                            
+TI                              Air Continental Africa                      
+                                                                            
+AG              ABR             Air Contractors (UK) Limited                
+                                                                            
+YN              CRQ             Air Creebec (1994) Inc.                     
+                                                                            
+EN              DLA             Air Dolomiti S.p.A.                         
+                                                                            
+6D                              Air Dominicana S.A.                         
+                                                                            
+                SEE             Air Eagle (Pvt) Ltd.                        
+                                                                            
+N5                              Air Ecuador Airecu S.A.                     
+                                                                            
+UX              AEA             Air Europa Lineas Aereas, S.A.              
+                                                                            
+PC              FAJ             Air Fiji Ltd.                               
+                                                                            
+OF                              Air Finland Ltd.                            
+                                                                            
+AF              AFR             Air France                                  
+                                                                            
+4A                              Air Go Airlines S.A.                        
+                                                                            
+GL              GRL             Air Greenland A/S                           
+                                                                            
+NY              FXI             Air Iceland (Flugfelag Islands)             
+                                                                            
+IX                              Air India Charters Limited                  
+                                                                            
+3H              AIE             Air Inuit Ltd/Ltee                          
+                                                                            
+I9                              Air Italy S.p.A.                            
+                                                                            
+JM              AJM             Air Jamaica                                 
+                                                                            
+JS              KOR             Air Koryo                                   
+                                                                            
+7F              KAV             Air Kurfa                                   
+                                                                            
+GW              KIL             Air Lines of Kuban                          
+                                                                            
+L9              ALG             Air Logistics L.L.C. d/b/a                  
+                                                                            
+NX              AMU             Air Macau Company Limited                   
+                                                                            
+MD              MDG             Air Madagascar                              
+                                                                            
+QM              AML             Air Malawi Limited                          
+                                                                            
+KM              AMC             Air Malta p.l.c.                            
+                                                                            
+CW              MRS             Air Marshall Islands, Inc.                  
+                                                                            
+MV                              Air Mascareignes Ltd.                       
+                                                                            
+MK              MAU             Air Mauritius                               
+                                                                            
+ZV              AMW             Air Midwest                                 
+                                                                            
+MC                              Air Mobility Command                        
+                                                                            
+9U              MLD             Air Moldova                                 
+                                                                            
+SW              NMB             Air Namibia                                 
+                                                                            
+XN              NPL             Air Nepal International Pvt. Ltd.           
+                                                                            
+NZ              ANZ             Air New Zealand Limited                     
+                                                                            
+7A              NXA             Air Next Co., Ltd.                          
+                                                                            
+EL              ANK             Air Nippon Co. Ltd.                         
+                                                                            
+PX              ANG             Air Niugini Pty Limited                     
+                                                                            
+4N                              Air North Charter and Trainung Ltd.         
+                                                                            
+YW              ANE             Air Nostrum L.A.M.S.A.                      
+                                                                            
+AP              ADH             Air One                                     
+                                                                            
+FJ              FJI             Air Pacific Ltd.                            
+                                                                            
+2P              GAP             Air Philippines Corporation                 
+                                                                            
+PJ                              Air Saint  Pierre                           
+                                                                            
+V7              SNG             Air Senegal International                   
+                                                                            
+HM              SEY             Air Seychelles Limited                      
+                                                                            
+4D              ASD             Air Sinai                                   
+                                                                            
+VP                              Air Speed Up                                
+                                                                            
+SL              SHR             Air Sylhet AG                               
+                                                                            
+VT              VTA             Air Tahiti                                  
+                                                                            
+TN              THT             Air Tahiti Nui                              
+                                                                            
+TC              ATC             Air Tanzania Company Ltd.                   
+                                                                            
+8T                              Air Tindi Ltd.                              
+                                                                            
+TS              TSC             Air Transat                                 
+                                                                            
+8C                              Air Transport International Ltd             
+                                                                            
+3N              URG             Air Urga                                    
+                                                                            
+NF              AVN             Air Vanuatu (Operations) Limited            
+                                                                            
+VL              VIM             Air Via Ltd.                                
+                                                                            
+ZW              AWI             Air Wisconsin Airlines Corporation          
+                                                                            
+UM              AZW             Air Zimbabwe (Pvt) Ltd.                     
+                                                                            
+RU                              AirBridgeCargo Airlines Limited             
+                                                                            
+P2              XAK             AirKenya Express Limited                    
+                                                                            
+FL                              AirTran Airways, Inc.                       
+                                                                            
+SI              BCI             AirX Limited dba Blue Islands               
+                                                                            
+AK              AXM             Airasia Sdn Bhd.                            
+                                                                            
+D7                              Airasia X Sdn. Bhd.                         
+                                                                            
+4Y                              Airbus Transport International              
+                                                                            
+K9              ESD             Aircompany "Esen Air"                       
+                                                                            
+QH              LYN             Aircompany "Kyrgyzstan"                     
+                                                                            
+Y5              AWA             Aircompany Asia Wings JSC                   
+                                                                            
+YQ                              Aircompany Polet                            
+                                                                            
+CG                              Airlines of Papua New Guinea Limited        
+                                                                            
+M8                              Airmax S.A.                                 
+                                                                            
+6L              AKK             Aklak Inc.                                  
+                                                                            
+                HJT             Al Rais Cargo Agencies L.L.C.               
+                                                                            
+2T              ANH             Alajnihah For Air Transport                 
+                                                                            
+D4              ASC             Alas Del Sur S.R.L                          
+                                                                            
+AS              ASA             Alaska Airlines Inc.                        
+                                                                            
+KO              AER             Alaska Central Express                      
+                                                                            
+LV              LBC             Albanian Airlines MAK S.H.P.K.              
+                                                                            
+AZ              AZA             Alitalia-Compagnia Aerea Italiana S.p.A     
+                                                                            
+NH              ANA             All Nippon Airways Co. Ltd.                 
+                                                                            
+CD              LLR             Alliance Air                                
+                                                                            
+4W              AJK             Allied Air Ltd.                             
+                                                                            
+5A              AIP             Alpine Aviation Inc.                        
+                                                                            
+Z8                              Amaszonas S.A.                              
+                                                                            
+AA              AAL             American Airlines Inc.                      
+                                                                            
+A8              AMF             Ameriflight, LLC                            
+                                                                            
+M6              AJT             Amerijet International Inc.                 
+                                                                            
+MO              AUH             Amiri Flight                                
+                                                                            
+OY                              Andes Lineas Aereas S.A.                    
+                                                                            
+G6              AKW             Angkor Airways Corporation                  
+                                                                            
+O4                              Antrak Air Limited                          
+                                                                            
+5F              CIR             Arctic Circle Air Service Inc.              
+                                                                            
+7S                              Arctic Transportation Services, Inc.        
+                                                                            
+FG              AFG             Ariana Afghan Airlines                      
+                                                                            
+Q9                              Arik Niger                                  
+                                                                            
+IZ              AIZ             Arkia - Israeli Airlines Ltd                
+                                                                            
+U8                              Armavia                                     
+                                                                            
+JW              APW             Arrow Air Inc.                              
+                                                                            
+8A                              Arrow Panama, S.A.                          
+                                                                            
+OD              SAL             Asia Alpha Airways                          
+                                                                            
+OZ              AAR             Asiana Airlines Inc.                        
+                                                                            
+4K                              Askari Aviation (PVT) Ltd.                  
+                                                                            
+ER              DHL             Astar Air Cargo                             
+                                                                            
+5W              AEU             Astraeus Ltd.                               
+                                                                            
+8V                              Astral Aviation Ltd.                        
+                                                                            
+7B              AYZ             Atlant-Soyuz                                
+                                                                            
+RC              FLI             Atlantic Airways Faroe Islands              
+                                                                            
+EV              ACY             Atlantic Southeast Airlines, Inc.           
+                                                                            
+5Y                              Atlas Air, Inc.                             
+                                                                            
+KK              KKK             Atlasjet Airlines Inc.                      
+                                                                            
+IP              JOL             Atyrau  Aue Joly                            
+                                                                            
+IQ              AUB             Augsburg Airways GmbH & Co. KG              
+                                                                            
+GR              AUR             Aurigny Air Services Limited                
+                                                                            
+XM              XME             Australian Air Express Pty. Ltd.            
+                                                                            
+OS              AUA             Austrian Airlines, Osterreichische          
+                                                                            
+2E              PHW             Ave.com                                     
+                                                                            
+ZR                              Aviacon Zitotrans Air Company JSC           
+                                                                            
+7U                              Aviaenergo                                  
+                                                                            
+4B              TUP             Aviastar-TU Co.  Aviacompany                
+                                                                            
+FP              FRE             Aviation Services, Ltd.                     
+                                                                            
+Q4                              Aviation Starlink Inc.                      
+                                                                            
+Z3              SMJ             Avient Aviation (PVT) Limited               
+                                                                            
+HC              AVC             Avient Cameroon S.A.                        
+                                                                            
+9V              ROI             Aviones de Oriente C.A. (AVIOR)             
+                                                                            
+J2              AHY             Azerbaijan Hava Yollary                     
+                                                                            
+7A                              Aztec Worldwide Airlines Inc.               
+                                                                            
+AD                              Azul Linhas Aereas Brasileiras              
+                                                                            
+JA                              B & H Airlines                              
+                                                                            
+CJ              CFE             BA Cityflyer Limited                        
+                                                                            
+EC                              BA European Limited t/a Openskies           
+                                                                            
+B9                              BIMINI Island Air Inc.                      
+                                                                            
+UP              BHS             Bahamasair Holdings, Limited                
+                                                                            
+2B                              Bahrain Air B.S.C.                          
+                                                                            
+PG              BKP             Bangkok Airways Co. Ltd.                    
+                                                                            
+B4              BKA             Bankair Inc.                                
+                                                                            
+3Y              XBO             Baseops International, Inc.                 
+                                                                            
+JV              BLS             Bearskin Lake air services Ltd.             
+                                                                            
+B2              BRU             Belavia                                     
+                                                                            
+LZ              LBY             Belle Air Company                           
+                                                                            
+B3              BLV             Bellview Airlines Limited                   
+                                                                            
+CH              BMJ             Bemidji Aviation Services, Inc.             
+                                                                            
+A8                              Benin Golf Air S.A.                         
+                                                                            
+5Q              BEA             Best Aviation Ltd.                          
+                                                                            
+BG              BBC             Biman Bangladesh Airlines                   
+                                                                            
+5Z                              Bismillah Airlines                          
+                                                                            
+BZ                              Blue Dart Aviation Ltd.                     
+                                                                            
+BV              BPA             Blue Panorama Airlines S.p.A.               
+                                                                            
+QW              BWG             Blue Wings AG                               
+                                                                            
+KF              BLF             Blue1 Oy                                    
+                                                                            
+BF                              Bluebird Cargo                              
+                                                                            
+U5              GWY             Brendan Airways, LLC                        
+                                                                            
+E6              BRC             Bringer Air Cargo Taxi Aereo Ltda           
+                                                                            
+DB              BZH             Brit Air                                    
+                                                                            
+BA              BAW             British Airways p.l.c.                      
+                                                                            
+BD              BMA             British Midland Airways Ltd.                
+                                                                            
+SN              DAT             Brussels Airlines N.V.                      
+                                                                            
+FB              LZB             Bulgaria Air                                
+                                                                            
+UZ              BRQ             Buraq Air Transport (BRQ)                   
+                                                                            
+VE              VLE             C.A.I. Second S.p.A.                        
+                                                                            
+5C              ICL             C.A.L. Cargo Airlines Ltd.                  
+                                                                            
+5J              CEB             CEBU Pacific Air                            
+                                                                            
+C2                              CEIBA Intercontinental S.A.                 
+                                                                            
+WZ              RWZ             CJSC Airline 400                            
+                                                                            
+V0              VCV             CONVIASA                                    
+                                                                            
+SS              CRL             CORSAIR                                     
+                                                                            
+MO              CAV             Calm Air International Ltd.                 
+                                                                            
+5T                              Canadian North Inc.                         
+                                                                            
+PT                              Capital Cargo International                 
+                                                                            
+TL              ANO             Capiteq Limited dba AIRNORTH                
+                                                                            
+BB              CBB             Cargo B Airlines                            
+                                                                            
+2G                              Cargoitalia S.p.A.                          
+                                                                            
+W8              CJT             Cargojet Airways Ltd.                       
+                                                                            
+CV              CLX             Cargolux Airlines International S.A.        
+                                                                            
+3Q                              Carib Aviation Limited                      
+                                                                            
+BW              BWA             Caribbean Airlines Limited                  
+                                                                            
+RV              CPN             Caspian Airlines Service Company Ltd.       
+                                                                            
+XG                              Catair Lineas Aereas S.A.(Clickair S.A.)    
+                                                                            
+CX              CPA             Cathay Pacific Airways Ltd.                 
+                                                                            
+KX              CAY             Cayman Airways Limited                      
+                                                                            
+9M              GLR             Central Mountain Air Ltd.                   
+                                                                            
+WE              CWC             Centurion Air Cargo, Inc.                   
+                                                                            
+6C                              Cetrafrrique Air Express (C.A.E.)           
+                                                                            
+C5                              Champlain Enterprises Inc.                  
+                                                                            
+RP              CHQ             Chautauqua Airlines Inc.                    
+                                                                            
+CI              CAL             China Airlines                              
+                                                                            
+CK                              China Cargo Airlines Ltd.                   
+                                                                            
+MU              CES             China Eastern Airlines                      
+                                                                            
+8Y                              China Postal Airlines Ltd.                  
+                                                                            
+CZ              CSN             China Southern Airlines                     
+                                                                            
+KN              CUA             China United Airlines                       
+                                                                            
+PN                              China West Air Co. Ltd.                     
+                                                                            
+OQ                              Chongqing Airlines Co. Ltd                  
+                                                                            
+A2              CIU             Cielos del Peru, S.A.                       
+                                                                            
+AU              AUT             Cielos del Sur S.A.                         
+                                                                            
+QI              CIM             Cimber Air A.S.                             
+                                                                            
+CF              SDR             City Airline AB                             
+                                                                            
+WX              BCY             Cityjet                                     
+                                                                            
+ZM                              Cityline Hungary Kft                        
+                                                                            
+C4              CGK             Click Airways                               
+                                                                            
+C7              UZS             Closed Joint Stock Company                  
+                                                                            
+9L                              Colgan Air                                  
+                                                                            
+MN              CAW             Comair Ltd.                                 
+                                                                            
+OH              COM             Comair, Inc.                                
+                                                                            
+XK              CCM             Compagnie Aerienne Corse                    
+                                                                            
+I5                              Compagnie Aerienne du Mali S.A.             
+                                                                            
+5L                              Compania Boliviana de Transporte Aereo      
+                                                                            
+MX              MXA             Compania Mexicana de Aviacion               
+                                                                            
+CM              CMP             Compania Panamena de Aviacion, S.A.         
+                                                                            
+CP                              Compass Airlines Inc.                       
+                                                                            
+Y4              VOI             Concesionaria Vuela Compania De Aviacion    
+                                                                            
+DE              CFG             Condor Flugdienst GmbH                      
+                                                                            
+C3              KIS             Contact-Air Flugdienst GmbH & Co. KG        
+                                                                            
+CO              COA             Continental Airlines, Inc.                  
+                                                                            
+CS              CMI             Continental Micronesia, Inc.                
+                                                                            
+7V                              Corporate Air Charters, Inc.                
+                                                                            
+F5                              Cosmic Air Pvt. Ltd.                        
+                                                                            
+7C              COY             Coyne Airways Ltd                           
+                                                                            
+OU              CTN             Croatia Airlines                            
+                                                                            
+CU              CUB             Cubana de Aviacion S.A.                     
+                                                                            
+5R                              Custom Air Transport, Inc.                  
+                                                                            
+CY              CYP             Cyprus Airways Limited                      
+                                                                            
+OK              CSA             Czech Airlines a.s., CSA                    
+                                                                            
+D5              DAE             DHL Aero Expreso S.A.                       
+                                                                            
+D0              DHK             DHL Air Limited                             
+                                                                            
+ES              DHX             DHL International B.S.C. ( c )              
+                                                                            
+L3              JOS             DHL de Guatemala S.A.                       
+                                                                            
+D3              DAO             Daallo Airlines                             
+                                                                            
+N2                              Daghestan Airlines                          
+                                                                            
+H8              KHB             Dalavia - Far East Airways Khabarovsk       
+                                                                            
+9J              DAN             Dana Airlines Limited                       
+                                                                            
+DX              DTR             Danish Air Transport                        
+                                                                            
+0D              DWT             Darwin Airline SA Lugano                    
+                                                                            
+JD              DER             Deer Jet Co. Ltd.                           
+                                                                            
+DL              DAL             Delta Air Lines Inc.                        
+                                                                            
+LH              DLH             Deutsche Lufthansa AG                       
+                                                                            
+Z6              UDN             Dnieproavia  - Joint Stock Aviation Co.     
+                                                                            
+ZD                              Dolphin Air                                 
+                                                                            
+E3              DMO             Domodedovo Airlines                         
+                                                                            
+KB              DRK             Druk Air Corporation Ltd.                   
+                                                                            
+9H                              Dutch Antilles Express B.V.                 
+                                                                            
+BR              EVA             EVA Airways Corporation                     
+                                                                            
+B5                              East African Safari Air Express Ltd.        
+                                                                            
+WK              EDW             Edelweiss Air AG                            
+                                                                            
+MS              MSR             Egyptair                                    
+                                                                            
+LY              ELY             El Al Israel Airlines Ltd.                  
+                                                                            
+6S              ESC             El Sol de America                           
+                                                                            
+A0                              Elysair S.A.S.                              
+                                                                            
+EK              UAE             Emirates                                    
+                                                                            
+EM                              Empire Airlines                             
+                                                                            
+                MPR             Empire Aviation Limited                     
+                                                                            
+7H              ERH             Era Aviation, Inc.                          
+                                                                            
+B8              ERT             Eritrean Airlines                           
+                                                                            
+E7                              Estafeta Carga Aerea, S.A. de C.V           
+                                                                            
+OV              ELL             Estonian Air                                
+                                                                            
+ET              ETH             Ethiopian Airlines Enterprise               
+                                                                            
+EY              ETD             Etihad Airways                              
+                                                                            
+5B                              Euro-Asia International JSC                 
+                                                                            
+UI              ECA             Eurocypria Airlines Ltd.                    
+                                                                            
+GJ              EEZ             Eurofly S.p.A.                              
+                                                                            
+4L              MJX             Euroline                                    
+                                                                            
+QY              BCS             European Air Transport N.V.                 
+                                                                            
+EW              EWG             Eurowings AG                                
+                                                                            
+7E                              Evergreen Helicopters International Inc.    
+                                                                            
+EZ              EIA             Evergreen International Airlines Inc.       
+                                                                            
+MB              EXA             Execaire                                    
+                                                                            
+8K                              Exploits Valley Air Services                
+                                                                            
+8D              EXV             Expo Aviation (Pvt) Limited                 
+                                                                            
+XE              BTA             ExpressJet Airlines, Inc.                   
+                                                                            
+ZY              EZA             Eznis Airways Co. Ltd.                      
+                                                                            
+FC                              Falcon Express Cargo Airlines               
+                                                                            
+QE              QFZ             Fars Qeshm Airlines                         
+                                                                            
+FX              FDX             FedEx                                       
+                                                                            
+FV              PLK             Federal State Unitary Enterprise "STC       
+                                                                            
+FO              FXX             Felix Airways                               
+                                                                            
+AY              FIN             Finnair Oyj                                 
+                                                                            
+7F              FAB             First Air                                   
+                                                                            
+5H              FFV             Five Fourty Aviation Limited                
+                                                                            
+RF              FWL             Florida West International Airways, Inc.    
+                                                                            
+F3              FXL             Fly Excellent                               
+                                                                            
+FY                              FlyFirefly Sdn. Bhd                         
+                                                                            
+TE              LIL             FlyLAL-Lithuanian Airlines                  
+                                                                            
+BE              BEE             Flybe Limited                               
+                                                                            
+7Y              FCR             Flying Carpet Air Transport & Services      
+                                                                            
+HK              FSC             Four Star Aviation                          
+                                                                            
+Y0                              Friendship Airways                          
+                                                                            
+F9                              Frontier Airlines, Inc.                     
+                                                                            
+2F              FTA             Frontier Flying Service, Inc.               
+                                                                            
+F6              FGL             Futura Gael                                 
+                                                                            
+GT              GBL             GB Airways Ltd.                             
+                                                                            
+Z5                              GMG Airlines Ltd.                           
+                                                                            
+GY                              Gabon Airlines                              
+                                                                            
+6G              GBK             Gabon Airlines Cargo                        
+                                                                            
+GP              GDR             Gadair European Airlines                    
+                                                                            
+GC              GNR             Gambia International Airlines Ltd.          
+                                                                            
+GA              GIA             Garuda Indonesia                            
+                                                                            
+4G              GZP             Gazpromavia Aviation Company Ltd.           
+                                                                            
+A9                              Georgian Airways                            
+                                                                            
+QB                              Georgian National Airlines                  
+                                                                            
+G5                              Gestair S.A.                                
+                                                                            
+G0              GHB             Ghana International Airlines Ltd.           
+                                                                            
+Y2              GSM             Globespan Airways Limited                   
+                                                                            
+GH                              Globus LLC                                  
+                                                                            
+GK                              Go One Airways                              
+                                                                            
+G7              GJS             GoJet Airlines LLC                          
+                                                                            
+CN                              Grand China Air Co. , Ltd.                  
+                                                                            
+GS                              Grand China Express Co. Ltd.                
+                                                                            
+GD                              Grandstar Cargo International Airlines      
+                                                                            
+ZK              GLA             Great Lakes Aviation Ltd.                   
+                                                                            
+IJ                              Great Wall Airlines Company Limited         
+                                                                            
+3R              GAI             Gromov Flight Research Institute Airline    
+                                                                            
+IF                              Gulf & Caribbean Cargo, Inc                 
+                                                                            
+GF              GFA             Gulf Air Company G.S.C.                     
+                                                                            
+3M              GFT             Gulfstream International Airlines, Inc.     
+                                                                            
+HQ              HMY             HMY Airways Inc.                            
+                                                                            
+HR              HHN             Hahn Air Lines                              
+                                                                            
+HU              CHH             Hainan Airlines Company Limited             
+                                                                            
+2H              HML             Hamsal Air Services Limited                 
+                                                                            
+HF              HLF             Hapag Lloyd Fluggesellschaft                
+                                                                            
+WP                              Hawaii Island Air, Inc.                     
+                                                                            
+HA              HAL             Hawaiian Airlines, Inc.                     
+                                                                            
+HN                              Heavylift Cargo Airlines Pty. Limited       
+                                                                            
+YO              MCM             Heli Air Monaco                             
+                                                                            
+JB              JBA             Helijet International Inc.                  
+                                                                            
+9I              HTA             Helitrans AS                                
+                                                                            
+HT              IMP             Hellenic Imperial Airways                   
+                                                                            
+HW                              Hello AG                                    
+                                                                            
+DU                              Hemus Air                                   
+                                                                            
+EO              ALX             Hewa Bora Airways                           
+                                                                            
+5K                              Hi Fly Transportes Aereos, S.A.             
+                                                                            
+8H              HWY             Highland Airways Limited                    
+                                                                            
+HD              ADO             Hokkaido Int'l Airlines Co., Ltd.           
+                                                                            
+HB                              Homer Air Inc.                              
+                                                                            
+HX                              Hong Kong Airlines Limited                  
+                                                                            
+KA              HDA             Hong Kong Dragon Airlines Limited           
+                                                                            
+UO              HKE             Hong Kong Express Airways Limited           
+                                                                            
+QX              QXE             Horizon Air                                 
+                                                                            
+II              CSQ             IBC Airways, Inc.                           
+                                                                            
+4I              IZM             IHY Izmir Havayollari A.S.                  
+                                                                            
+IK              ITX             IMAIR Airline                               
+                                                                            
+IB              IBE             Iberia - Lineas Aereas de Espana            
+                                                                            
+X8                              Icaro S.A.                                  
+                                                                            
+FI              ICE             Icelandair                                  
+                                                                            
+IO              IDO             Indochina Airlines                          
+                                                                            
+I2                              Industrieflug IPS                           
+                                                                            
+7I                              Insel Air International B.V.                
+                                                                            
+6K              INX             Inter Express Hava Tasimacilik A.S.         
+                                                                            
+6E                              Inter Globe Aviation Private Limited        
+                                                                            
+D6                              Inter-Aviation Services                     
+                                                                            
+3L              ISK             InterSky Luftfahrt GmbH                     
+                                                                            
+ZA                              Interavia Airlines                          
+                                                                            
+ID              ITK             Interlink Airlines (Pty) Ltd.               
+                                                                            
+L8                              International Air Cargo Company(LoadAir)    
+                                                                            
+I4              FWA             Interstate Airlines B.V.                    
+                                                                            
+IR              IRA             Iran Air                                    
+                                                                            
+EP              IRC             Iran Aseman Airlines                        
+                                                                            
+IA              IAW             Iraqi Airways                               
+                                                                            
+Q2                              Island Aviation Services Ltd.               
+                                                                            
+WC              ISV             Islena de Inversiones S.A. de C.V.          
+                                                                            
+6H              ISR             Israir Airlines and Tourism Ltd.            
+                                                                            
+I3                              Ivoirienne De Transport Aerien              
+                                                                            
+JC                              JAL Express                                 
+                                                                            
+JO              JAZ             JALways Co. Ltd.                            
+                                                                            
+O2                              JET AIR Spolka z o.o.                       
+                                                                            
+DV                              JSC "Aircompany SCAT"                       
+                                                                            
+G7              KAO             JSC "KAPO Avia"                             
+                                                                            
+DZ              LMZ             JSC "Starline.kz"                           
+                                                                            
+JI              JAE             Jade Cargo International Company Limited    
+                                                                            
+JL              JAL             Japan Airlines International Co., Ltd.      
+                                                                            
+NU              JTA             Japan Transocean Air Co. Ltd.               
+                                                                            
+JU              JAT             Jat  Airways                                
+                                                                            
+8J                              Jet 4 You                                   
+                                                                            
+9W              JAI             Jet Airways (India) Limited                 
+                                                                            
+QJ                              Jet Airways Inc.                            
+                                                                            
+PP              PJS             Jet Aviation Business Jets AG               
+                                                                            
+J0                              Jet Link Express Ltd.                       
+                                                                            
+S2                              Jet Lite (India) Limited                    
+                                                                            
+LS              EXS             Jet2.com Limited                            
+                                                                            
+0J              JCS             JetClub AG                                  
+                                                                            
+GX              JXX             JetX ehf, (Primera Air)                     
+                                                                            
+3K              JSA             Jetstar Asia Airways Pte Ltd                
+                                                                            
+BL              PIC             Jetstar Pacific Airlines                    
+                                                                            
+JX                              Jett8 Airlines Cargo Pte Ltd.               
+                                                                            
+3B              JBR             Job Air s.r.o.                              
+                                                                            
+DW              UCR             Joint Stock Company " Air Company           
+                                                                            
+N3              OMS             Joint Stock Company "Omskavia" Airlines     
+                                                                            
+R3              SVL             Joint Stock Company Aircompany "Yakutia"    
+                                                                            
+5M                              Joint Stock Company SIAT (Sibaviatrans)     
+                                                                            
+HZ              SHU             Joint- Stock Company "Sakhalinskie          
+                                                                            
+R5              JAV             Jordan Aviation                             
+                                                                            
+J4                              Jordan International Air Cargo              
+                                                                            
+6J              JUB             Jubba Airways                               
+                                                                            
+HO              DKH             Juneyao Airlines Co,. Ltd.                  
+                                                                            
+8K              KMI             K-Mile Air Co. Ltd                          
+                                                                            
+KD              KNI             KD Avia Open Joint Stock Company            
+                                                                            
+WA              KLC             KLM Cityhopper                              
+                                                                            
+KL              KLM             KLM Royal Dutch Airlines                    
+                                                                            
+K4                              Kalitta Air, LLC                            
+                                                                            
+CB              KFS             Kalitta Charters II, LLC                    
+                                                                            
+RQ              KMF             Kam Air                                     
+                                                                            
+E2              KMP             Kampuchea Airlines                          
+                                                                            
+3A              AFJ             Kenosha Aero, Inc. dba Alliance Airlines    
+                                                                            
+KQ              KQA             Kenya Airways                               
+                                                                            
+KG              LYM             Key Lime Air Corporation                    
+                                                                            
+YK              KYV             Kibris Turk Hava Yollari                    
+                                                                            
+IT                              Kingfisher Airlines Limited                 
+                                                                            
+Y9              IRK             Kish Airlines                               
+                                                                            
+KR              KHA             Kitty Hawk Aircargo, Inc.                   
+                                                                            
+KE              KAL             Korean Air Lines Co. Ltd.                   
+                                                                            
+KY                              Kunming Airlines                            
+                                                                            
+VD                              Kunpeng Airlines Co., Ltd                   
+                                                                            
+KU              KAC             Kuwait Airways                              
+                                                                            
+GO              KZU             Kuzu Airlines Cargo                         
+                                                                            
+JF              LAB             L.A.B. Flying Service Inc.                  
+                                                                            
+TM              LAM             LAM - Linhas Aereas de Mocambique           
+                                                                            
+LI              LIA             LIAT (1974) Ltd.                            
+                                                                            
+LO              LOT             LOT - Polish Airlines                       
+                                                                            
+XO              LTE             LTE International Airways S.A.              
+                                                                            
+LT              LTU             LTU International Airways                   
+                                                                            
+WJ              LAL             Labrador Airways Limited                    
+                                                                            
+N7                              Lagun Air                                   
+                                                                            
+LA              LAN             Lan Airlines S.A.                           
+                                                                            
+UC              LCO             Lan Chile Cargo S.A.                        
+                                                                            
+XL                              Lan Ecuador - Aerolane Lineas Aereas        
+                                                                            
+LP              LPE             Lan Peru S.A.                               
+                                                                            
+IL                              LankAir Private Limited                     
+                                                                            
+QV              LAO             Lao Airlines                                
+                                                                            
+LE                              Laparkan Airways, Inc.                      
+                                                                            
+NG              LDA             Lauda Air Luftfahrt AG                      
+                                                                            
+LN              LAA             Libyan Airlines                             
+                                                                            
+4V                              Lignes Aeriennes Congolaises                
+                                                                            
+7D              UDC             Limited Liability Company                   
+                                                                            
+L7                              Linea Aerea Carguera de Colombia S.A.       
+                                                                            
+QL              LER             Linea Aerea de Servicio Ejecutivo           
+                                                                            
+LR              LRC             Lineas Aereas Costarricenses S.A.           
+                                                                            
+6M                              Linkair Express S.p.A                       
+                                                                            
+LM              LVG             Livingston S.p.A.                           
+                                                                            
+8L                              Lucky Air Co. Ltd.                          
+                                                                            
+LH              GEC             Lufthansa Cargo AG                          
+                                                                            
+CL              CLH             Lufthansa CityLine GmbH                     
+                                                                            
+L5                              Lufttransport AS                            
+                                                                            
+LG              LGL             Luxair                                      
+                                                                            
+5V              UKW             Lviv Airlines                               
+                                                                            
+L2                              Lynden Air Cargo, LLC                       
+                                                                            
+9Y                              MDLR Airlines Pvt. Ltd.                     
+                                                                            
+OM              MGL             MIAT - Mongolian Airlines                   
+                                                                            
+7G              MKA             MK Airlines Limited                         
+                                                                            
+SY              SCX             MN Airlines LLC                             
+                                                                            
+MB              MNB             MNG Airlines Cargo                          
+                                                                            
+XV                              MR Lines                                    
+                                                                            
+8I                              MYAIR.com                                   
+                                                                            
+VM                              Macair Jet S.A.                             
+                                                                            
+IN              MAK             Macedonian Airlnes                          
+                                                                            
+W5              IRM             Mahan Airlines                              
+                                                                            
+MH              MAS             Malaysia  Airline System Berhad             
+                                                                            
+MA              MAH             Malev Hungarian Airlines  Limited           
+                                                                            
+AE              MDA             Mandarin Airlines Ltd.                      
+                                                                            
+MP              MPH             Martinair Holland N.V.                      
+                                                                            
+YD              MTW             Mauritania Airways                          
+                                                                            
+                MXU             Maximus Air Cargo                           
+                                                                            
+VL                              Med View Airlines (NIG) Ltd.                
+                                                                            
+N5              MDM             Mediterranean Aviation Company Ltd.         
+                                                                            
+4X                              Mercury Air Cargo, Inc.                     
+                                                                            
+U7                              Meridiana African Airlines (U) Limited      
+                                                                            
+IG              ISS             Meridiana S.p.A.                            
+                                                                            
+MZ              MNA             Merpati Nusantara Airlines                  
+                                                                            
+YV              ASH             Mesa Airlines, Inc.                         
+                                                                            
+XJ              MES             Mesaba Aviation Inc.                        
+                                                                            
+BH                              Mid Asia Airlines Limited                   
+                                                                            
+ME              MEA             Middle East Airlines AirLiban               
+                                                                            
+MG                              Midex Airlines                              
+                                                                            
+YX              MEP             Midwest Airlines Inc.                       
+                                                                            
+MJ              MLR             Mihin Lanka (Pvt) Ltd.                      
+                                                                            
+7M              MSA             Mistral Air S.r.l.                          
+                                                                            
+MW                              Mokulele Flight Service                     
+                                                                            
+2M              MDV             Moldavian Airlines                          
+                                                                            
+ZB              MON             Monarch Airlines                            
+                                                                            
+YM              MGX             Montenegro Airlines                         
+                                                                            
+M9                              Motor-Sich JSC                              
+                                                                            
+C2              MTN             Mountain Air Cargo Inc.                     
+                                                                            
+N8              MUA             Murray Air Inc.                             
+                                                                            
+VZ              MYT             MyTravel Airways Limited                    
+                                                                            
+UB              UBA             Myanma Airways                              
+                                                                            
+8M                              Myanmar Airways International               
+                                                                            
+AI              AIC             NACIL, dba Air India                        
+                                                                            
+IC              IAC             NACIL, dba Indian Airlines                  
+                                                                            
+O9              NOV             NOVA Airlines                               
+                                                                            
+UE                              Nasair                                      
+                                                                            
+9O                              National Airways Cameroon                   
+                                                                            
+ON              RON             Nauru Air Corporation                       
+                                                                            
+ZN              NAY             Naysa                                       
+                                                                            
+M4              NZA             Nayzak Air Transport Company                
+                                                                            
+NO                              Neos S.P.A.                                 
+                                                                            
+9X              AXY             New Axis Airways                            
+                                                                            
+KZ              NCA             Nippon Cargo Airlines                       
+                                                                            
+LF              NDC             Nordic Airlink Holding AB dba flynordic     
+                                                                            
+NA              NAO             North American Airlines, Inc.               
+                                                                            
+NS                              Northeastern Airlines Co. Ltd.              
+                                                                            
+NC                              Northern Air Cargo, Inc.                    
+                                                                            
+NW              NWA             Northwest Airlines, Inc.                    
+                                                                            
+J3              PLR             Northwestern Air Lease Ltd.                 
+                                                                            
+DY              NAX             Norwegian Air Shuttle A.S.                  
+                                                                            
+N9              NVR             Nova Airlines AB                            
+                                                                            
+OL              OLT             OLT-Ostfriesische Lufttransport GmbH        
+                                                                            
+V8              VAS             OOO "Atran "                                
+                                                                            
+O6              ONE             Oceanair Linhas Aereas Ltda.                
+                                                                            
+BK                              Okay Airways Company Limited                
+                                                                            
+OA              OAL             Olympic Airlines                            
+                                                                            
+WY              OAS             Oman Air (SAOG)                             
+                                                                            
+OG              OTG             One Two Go Airlines Co. Ltd.                
+                                                                            
+8Q              OHY             Onur Havayollari Tasimacilik A.S.           
+                                                                            
+EA              ANU             Operador Aereo Andalus S.A.                 
+                                                                            
+R2              ORB             Orenburg Airlines Federal State             
+                                                                            
+OX                              Orient Thai Airlines                        
+                                                                            
+OJ              OLA             Overland Airways Limited                    
+                                                                            
+O7                              OzJet Airlines Pty Ltd                      
+                                                                            
+9Q              PBA             PB Air Company Limited                      
+                                                                            
+8F              CRG             PT Cardig Air                               
+                                                                            
+RH                              PT Republic Express Airlines                
+                                                                            
+I8              IDA             PT. Indonesia Air Transport. Tbk            
+                                                                            
+QZ              AWQ             PT. Indonesia AirAsia                       
+                                                                            
+9M              MKE             PT. Megantara Air                           
+                                                                            
+SJ                              PT. Sriwijaya Air                           
+                                                                            
+3F                              Pacific Airways Inc.                        
+                                                                            
+Q8              PEC             Pacific East Asia Cargo Airlines, Inc.      
+                                                                            
+LW              ANV             Pacific Wings, L.L.C.                       
+                                                                            
+P8              PKW             Pak West Airlines Inc.                      
+                                                                            
+PK              PIA             Pakistan International Airlines             
+                                                                            
+0P                              Palau Asia Pacific Air Inc.                 
+                                                                            
+9P                              Palau National Airlines                     
+                                                                            
+7Q              PWD             Pan Am World Airways Dominicana             
+                                                                            
+I7                              Paramount Airways Pvt. Ltd.                 
+                                                                            
+P6              PSC             Pascan Aviation Inc.                        
+                                                                            
+H9                              Pegasus Hava Tasimaciligi A.S.              
+                                                                            
+KS              PEN             Penair                                      
+                                                                            
+PR              PAL             Philippine Airlines, Inc.                   
+                                                                            
+US                              Piedmont Airlines, Inc.                     
+                                                                            
+9E              FLG             Pinnacle Airlines Inc.                      
+                                                                            
+P2              PLS             Platnium Air Linhas Aereas Ltda.            
+                                                                            
+PO                              Polar Air Cargo Worldwide, Inc.             
+                                                                            
+M4              PMO             Polar Airlines de Mexico S.A. de C.V.       
+                                                                            
+PD                              Porter Airlines Inc.                        
+                                                                            
+NI              PGA             Portugalia - Companhia Portuguesa de        
+                                                                            
+3X                              Premier Trans Aire Inc.                     
+                                                                            
+PM              PSK             Prescott Support Company                    
+                                                                            
+FE                              Primaris Airlines, Inc.                     
+                                                                            
+PU              PUA             Primeras Lineas Uruguayas de Navegacion     
+                                                                            
+U4                              Progress Multitrade Co., Ltd.               
+                                                                            
+F3                              Propilot, Inc.                              
+                                                                            
+PB              SPR             Provincial Airlines                         
+                                                                            
+2P                              Puerto Rico Air Management Service Inc.     
+                                                                            
+EB                              Pullmantur Air                              
+                                                                            
+QF              QFA             Qantas Airways Ltd.                         
+                                                                            
+QR              QTR             Qatar Airways(Q.C.S.C)                      
+                                                                            
+R6                              RACSA Airlines                              
+                                                                            
+RT                              RAK Airways                                 
+                                                                            
+ZL                              REGIONAL EXPRESS PTY LIMITED                
+                                                                            
+2O                              Redemption Inc.                             
+                                                                            
+FN              RGL             Regional Air Lines                          
+                                                                            
+YS                              Regional Compagnie Aerienne Europeenne      
+                                                                            
+WQ              RMV             Romanian Aviation Company                   
+                                                                            
+AT              RAM             Royal Air Maroc                             
+                                                                            
+SG              MOD             Royal Airways Limited                       
+                                                                            
+BI              RBA             Royal Brunei Airlines Sdn. Bhd.             
+                                                                            
+6D              KDR             Royal Daisy Airlines                        
+                                                                            
+RZ              RFJ             Royal Falcon                                
+                                                                            
+RJ              RJA             Royal Jordanian                             
+                                                                            
+RA              RNA             Royal Nepal Airlines Corporation            
+                                                                            
+RM              RUC             Rutas Aereas, C.A. RUTACA                   
+                                                                            
+WB              RWD             Rwandair Express                            
+                                                                            
+RD              RYN             Ryan International Airlines                 
+                                                                            
+FR              RYR             Ryanair Ltd.                                
+                                                                            
+4Z                              SA  Airlink                                 
+                                                                            
+BU              CNO             SAS Scandinavian Airlines Norge AS          
+                                                                            
+SP              SAT             SATA - Air Acores                           
+                                                                            
+S4              RZO             SATA International Servicos e               
+                                                                            
+UG              TUI             SEVENAIR S.A.                               
+                                                                            
+8R                              SOL S.A. Lineas Aereas                      
+                                                                            
+Q7              SWQ             SWIFT AIR,L.L.C.                            
+                                                                            
+LX              SWR             SWISS International Air Lines Ltd           
+                                                                            
+FA              SFR             Safair (Proprietary) Ltd.                   
+                                                                            
+4Q              SFW             Safi Airways Ltd.                           
+                                                                            
+S8                              Sama Air LLC                                
+                                                                            
+ZS                              Sama Airways Ltd.                           
+                                                                            
+E5              BRZ             Samara Airlines                             
+                                                                            
+SV              SVA             Saudi Arabian Airlines                      
+                                                                            
+W7              SAH             Sayakhat Airlines                           
+                                                                            
+SK              SAS             Scandinavian Airlines System (SAS)          
+                                                                            
+YR              EGJ             Scenic Airlines, Inc.                       
+                                                                            
+RZ              LRS             Servicios Aereos Nacionales S.A.            
+                                                                            
+NL              SAI             Shaheen Air International                   
+                                                                            
+6Q              SAW             Sham Wings Airlines                         
+                                                                            
+SC              CDG             Shandong Airlines                           
+                                                                            
+F4              SHQ             Shanghai Airlines Cargo International       
+                                                                            
+FM                              Shanghai Airlines Co. Ltd.                  
+                                                                            
+ZH              CSZ             Shenzhen Airlines                           
+                                                                            
+J5                              Shenzhen Donghai Airlines Co., Ltd          
+                                                                            
+8S                              Shun Tak-China Travel Ship Mgmt. Ltd.       
+                                                                            
+S5                              Shuttle America                             
+                                                                            
+S7              SBI             Siberia Airlines                            
+                                                                            
+3U                              Sichuan Airlines Co. Ltd.                   
+                                                                            
+FT              SRH             Siem Reap Airways International             
+                                                                            
+ZP                              Silk Way Airlines                           
+                                                                            
+MI              SLK             SilkAir (S) Pte. Ltd.                       
+                                                                            
+SQ              SQC             Singapore Airlines Cargo Pte. Ltd.          
+                                                                            
+SQ              SIA             Singapore Airlines Limited                  
+                                                                            
+S9                              Sky Air World Pty Ltd                       
+                                                                            
+XW                              Sky Express                                 
+                                                                            
+GQ              SHE             Sky Express S.A.                            
+                                                                            
+GV              SKG             Sky Gabon S.A.                              
+                                                                            
+UQ              SJA             Sky Jet Aviation Ltd                        
+                                                                            
+H2              SKU             Sky Service S.A. dba Sky Airline            
+                                                                            
+KI              SKZ             Sky Way Enterprises Inc.                    
+                                                                            
+XT              SKT             SkyStar Airways Company Limited             
+                                                                            
+OO              SKW             SkyWest  Airlines                           
+                                                                            
+SX                              Skybus Airlines, LLC                        
+                                                                            
+BC              SKY             Skymark Airlines Inc.                       
+                                                                            
+LQ                              Skynet Asia Airways Co., Ltd.               
+                                                                            
+5G              SSV             Skyservice Airlines Inc.                    
+                                                                            
+JZ              SKX             Skyways AB                                  
+                                                                            
+XR                              Skywest Airlines Pty. Ltd.                  
+                                                                            
+MM              SAM             Sociedad Aeronautica de Medellin            
+                                                                            
+OG                              Societe De Transport De L'Archipel          
+                                                                            
+VU                              Societe Nouvelle Air Ivoire                 
+                                                                            
+4S              OLC             Solar Cargo, C.A.                           
+                                                                            
+IE              SOL             Solomon Airlines                            
+                                                                            
+SA              SAA             South African Airways                       
+                                                                            
+G2              GGG             South-East European Airlines                
+                                                                            
+9S              SOO             Southern Air Inc.                           
+                                                                            
+WN              SWA             Southwest Airlines Co.                      
+                                                                            
+JK              JKK             Spanair S.A.                                
+                                                                            
+NK                              Spirit Airlines                             
+                                                                            
+9C                              Spring Airlines Limited Corporation         
+                                                                            
+UL              ALK             SriLankan Airlines Limited                  
+                                                                            
+                SBO             Stabo Air Limited                           
+                                                                            
+S6              SRR             Star Air A/S                                
+                                                                            
+2S                              Star Equatorial Airlines                    
+                                                                            
+2I              SRU             Star Up S.A.                                
+                                                                            
+QP              SLT             Starlight Airline                           
+                                                                            
+NB                              Sterling Airlines A/S                       
+                                                                            
+SD              SUD             Sudan Airways Co. Ltd.                      
+                                                                            
+XQ              SXS             SunExpress                                  
+                                                                            
+WG                              Sunwing Airlines Inc.                       
+                                                                            
+PY              SLM             Surinam Airways Ltd.                        
+                                                                            
+7J              SWT             Swiftair                                    
+                                                                            
+RB              SYR             Syrian Arab Airlines                        
+                                                                            
+DT              DTA             TAAG - Linhas Aereas de Angola              
+                                                                            
+TI              TAT             TACA Costa Rica Sociedad Anonima            
+                                                                            
+PZ              LAP             TAM - Transportes Aereos del                
+                                                                            
+JJ              TAM             TAM Linhas Aereas S.A.                      
+                                                                            
+EQ              TAE             TAME Linea Aerea del Ecuador                
+                                                                            
+TP              TAP             TAP - Air Portugal                          
+                                                                            
+RO              ROT             TAROM - Transporturile Aeriene Romane       
+                                                                            
+3V              TAY             TNT Airways S.A.                            
+                                                                            
+T4                              TRIP Transporte Aereos Regionais Do         
+                                                                            
+OR              TFL             TUI Airlines Nederland B.V.                 
+                                                                            
+6B              BLX             TUIfly Nordic AB                            
+                                                                            
+TA              TAI             Taca International Airlines, S.A.           
+                                                                            
+R9              TSD             Taf Linhas Aereas S.A.                      
+                                                                            
+TQ              TDM             Tandem Aero Ltd.                            
+                                                                            
+HJ                              Tasman Cargo Airlines PTY LTD               
+                                                                            
+U9                              Tatarstan JSC Aircompany                    
+                                                                            
+3Z                              Tatonduk Outfitters Limited.                
+                                                                            
+P5              JPR             Taxi Fly Group S.A.                         
+                                                                            
+L6              VNZ             Tbilaviamsheni                              
+                                                                            
+FD                              Thai AirAsia Co., Ltd.                      
+                                                                            
+TG              THA             Thai Airways International Public           
+                                                                            
+DK              VKG             Thomas Cook Airlines Scandinavia A/S        
+                                                                            
+MT              TCX             Thomas Cook Airlines U.K. Limited           
+                                                                            
+BY              TOM             Thomson Airways Limited                     
+                                                                            
+3P                              Tiara Air N.V.                              
+                                                                            
+ZT              AWC             Titan Airways Limited                       
+                                                                            
+9D                              Toumai Air Tchad                            
+                                                                            
+8P              TDR             Trade Air Ltd.                              
+                                                                            
+WI                              Tradewinds Airlines Inc.                    
+                                                                            
+N4              TNB             Trans Air Benin                             
+                                                                            
+T0                              Trans American Airlines, S.A. TACA PERU     
+                                                                            
+AX              LOF             Trans States Airlines, Inc.                 
+                                                                            
+GE              TNA             TransAsia Airways Corporation               
+                                                                            
+UN              TSO             Transaero Airlines                          
+                                                                            
+HV              TRA             Transavia Airlines                          
+                                                                            
+AL              TXC             Transaviaexport Cargo Airline               
+                                                                            
+T9                              Transcarga Int'l Airways, C.A.              
+                                                                            
+TH                              Transmile Air Services Sdn. Bhd.            
+                                                                            
+9K              TFZ             Transport Africa                            
+                                                                            
+LU                              Transporte Aereo S.A.                       
+                                                                            
+                BOL             Transportes Aereos Bolivianos               
+                                                                            
+9P              CIE             Transportes Aereos Cielos Andinos S.A.C.    
+                                                                            
+QT              TPA             Transportes Aereos Mercantiles              
+                                                                            
+VR              TCV             Transportes Aereos de Cabo Verde            
+                                                                            
+VW              TAO             Transportes Aeromar, S.A. de C.V.           
+                                                                            
+S5              TSJ             Trast Aero                                  
+                                                                            
+5F                              Tunca Havacilik A.S. BestAir                
+                                                                            
+TU              TAR             Tunisair                                    
+                                                                            
+3T              URN             Turan Air Airline Company                   
+                                                                            
+TK              THY             Turkish Airlines Inc.                       
+                                                                            
+T5              TUA             Turkmenistan Airlines                       
+                                                                            
+6T                              Turks Air                                   
+                                                                            
+HK              TRK             Turkuaz Airlines                            
+                                                                            
+VO              TYR             Tyrolean Airways Tiroler Luftfahrt GmbH     
+                                                                            
+B7              UIA             UNI Airways Corporation                     
+                                                                            
+5X              UPS             UPS                                         
+                                                                            
+US              USA             US Airways, Inc.                            
+                                                                            
+UJ              JUS             USA Jet Airlines, Inc.                      
+                                                                            
+UT              TMN             UTair Aviation Joint-Stock Company          
+                                                                            
+PS              AUI             Ukraine International Airlines              
+                                                                            
+UF              UKM             Ukrainian Mediterranean Airlines Ltd.       
+                                                                            
+UA              UAL             United Airlines, Inc.                       
+                                                                            
+4H                              United Airways Bangladesh Ltd               
+                                                                            
+EU                              United Eagle Airlines Co Ltd                
+                                                                            
+UV              UVA             Universal Airways, Inc.                     
+                                                                            
+U6              SVR             Ural Airlines                               
+                                                                            
+UR                              Utair - Express Limited Company             
+                                                                            
+HY              UZB             Uzbekistan Havo Yullary -                   
+                                                                            
+NN              MOV             VIM Airlines                                
+                                                                            
+G3                              VRG Linhas Aereas S.A.                      
+                                                                            
+VF                              Valuair Ltd.                                
+                                                                            
+6Z                              Van Air Europe, a.s.                        
+                                                                            
+LC              VLO             Varig Logistica S/A                         
+                                                                            
+V4              VEC             Vensecar Internacional C.A.                 
+                                                                            
+0V                              Vietnam Air Service Company                 
+                                                                            
+VN              HVN             Vietnam Airlines Corporation                
+                                                                            
+V5              VPA             Vip Air, spol. S.r.o                        
+                                                                            
+VX              VRD             Virgin America Inc.                         
+                                                                            
+VS              VIR             Virgin Atlantic Airways Limited             
+                                                                            
+DJ              VOZ             Virgin Blue Airlines Pty Ltd                
+                                                                            
+VA              VAU             Virgin Blue International Airlines          
+                                                                            
+VK              VGN             Virgin Nigeria Airways                      
+                                                                            
+ZG                              Viva Macau Limited                          
+                                                                            
+XF              VLK             Vladivostok Air JSC                         
+                                                                            
+VI              VDA             Volga-Dnepr Airline Joint Stock             
+                                                                            
+V6              VOG             Voyager Airlines Ltd                        
+                                                                            
+WH              WEB             Webjet Linhas Aereas S/A                    
+                                                                            
+8O                              West Coast Air                              
+                                                                            
+WS              WJA             WestJet                                     
+                                                                            
+                WHT             White Airways S.A.                          
+                                                                            
+WF              WIF             Wideroe's Flyveselskap A.S.                 
+                                                                            
+7W                              Wind Rose Aviation Company                  
+                                                                            
+WM              WIA             Windward Islands Airways Int'l  N.V.        
+                                                                            
+IW                              Wings Air                                   
+                                                                            
+3W                              Woodgate Executive Air Charter UK Ltd.      
+                                                                            
+WO              WOA             World Airways                               
+                                                                            
+T8              WWI             Worldwide Jet Charter L.L.C.                
+                                                                            
+SE              XLF             XL Airways France                           
+                                                                            
+MF              CXA             Xiamen Airlines                             
+                                                                            
+YC              LLM             Yamal Airlines                              
+                                                                            
+Y8              YZR             Yangtze River Express Airlines Company      
+                                                                            
+IY              IYE             Yemenia - Yemen Airways                     
+                                                                            
+ZJ              ZMA             Zambezi Airlines                            
+                                                                            
+K8                              Zambia Skyways Ltd.                         
+                                                                            
+Q3              MAZ             Zambian Airways                             
+                                                                            
+Z4              OOM             Zoom Airlines Inc.                          
+                                                                            
+3Z              ZAW             Zoom Airways Limited                        
+                                                                            
+X9              NVD             joint stock company Avion Express           
+                                                                            
+*c              99c             Unknown Canadian Airline                    
+                                                                            
+*f              99f             Unknown Foreign Airline                     
+                                                                            
+*u              99u             Unknown US Airline                          
+                                                                            
+*o              99o             Aircraft Under Their Own Power              

@@ -1,0 +1,41 @@
+#mysql -uroot -paxx2xx < /usr/local/apache2/htdocs/mysql.txt
+create database if not exists ticket_lua;
+use ticket_lua;
+
+drop table if EXISTS three_code;
+CREATE TABLE `three_code` (
+  `i` int UNSIGNED NOT NULL auto_increment,
+  `id` int NOT NULL default -1,
+  `name` char(100) NOT NULL ,
+  `three_code` char(10) NOT NULL default "",
+  `province_id` int  NOT NULL default -1 comment "",
+  `region_id` int  NOT NULL default -1 comment "东北",
+  `country_id` int  NOT NULL default -1 ,
+  `area_id` int  NOT NULL default -1 comment "东亚",
+  `continent_id` int  NOT NULL default -1 comment "亚洲",
+  `global_id` int  NOT NULL default 0 comment "全球",
+  `type` enum('3code','province','region','country','area','continent','global') NOT NULL ,
+  `update_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  INDEX (id),
+  INDEX (province_id),
+  INDEX (region_id),
+  INDEX (country_id),
+  INDEX (area_id),
+  INDEX (continent_id),
+  INDEX (global_id),
+  INDEX (type),
+  PRIMARY KEY (`i`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+#insert into three_code(id,name,three_code,province_id,region_id,country_id,area_id,continent_id,global_id,type) values (),()
+drop table if EXISTS sanzima;
+CREATE TABLE `sanzima` (
+  `id` int UNSIGNED NOT NULL auto_increment,
+  `name` char(100) NOT NULL default "",
+  `name_cn` char(100) NOT NULL ,
+  `sanzima` char(10) NOT NULL default "",
+  `country_id` int UNSIGNED NOT NULL,
+  `zone_id` int UNSIGNED NOT NULL,
+  `type` enum('sanzima','country','zone') NOT NULL ,
+  `update_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;

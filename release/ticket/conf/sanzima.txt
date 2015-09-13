@@ -1,0 +1,493 @@
+北美洲  NORTH  AMERICA
+国家    COUNTRY 机场中文    机场英文名  三字代码
+加拿大  CANADA  渥太华(首都)    OTTAWA  YOW
+加拿大  CANADA  蒙特利尔    MONTREAL    YMQ
+加拿大  CANADA  温哥华  VANCOUVER   YVR
+加拿大  CANADA  卡尔加里    CALGARY YYC
+加拿大  CANADA  埃德蒙顿    EDMONTON    YEG
+加拿大  CANADA  多伦多  TORONTO YTO/YYZ
+墨西哥  MEXICO  瓜达拉哈拉  GUADALAJARA GDL
+美国    UNITED STATES   华盛顿(首都)    WASHINGTON  WAS/IAD
+美国    UNITED STATES   阿伦敦  ALLENTOWN   ABE
+美国    UNITED STATES   阿尔伯克斯  ALBUQUERQUE ABQ
+美国    UNITED STATES   阿特兰大    ATLANTA ATL
+美国    UNITED STATES   奥斯汀  AUSTIN  AUS
+美国    UNITED STATES   卡拉马祖    KALAMAZOO   AZO
+美国    UNITED STATES   哈特福德    BRADLEY APO OF HARTFORD BDL
+美国    UNITED STATES   伯明翰  BIRMINGHAM  BHM
+美国    UNITED STATES   纳什维尔    NASHVILLE   BNA
+美国    UNITED STATES   博伊西  BOISE   BOI
+美国    UNITED STATES   波士顿  BOSTON  BOS
+美国    UNITED STATES   布朗斯韦尔  BROWNSVILLE BRO
+美国    UNITED STATES   巴吞鲁日    BATON ROUGE BTR
+美国    UNITED STATES   巴特尔克里克    BATTLE CREEK    BTL
+美国    UNITED STATES   布法罗  BUFFALO BUF
+美国    UNITED STATES   巴尔的摩    BALTIMORE   BWI
+美国    UNITED STATES   哥伦比亚    COLUMBIA    CAE
+美国    UNITED STATES   阿克伦肯顿  AKRON   CANTON  CAK
+美国    UNITED STATES   查塔诺加    CHATTANOOGA CHA
+美国    UNITED STATES   芝加哥  CHICAGO CHI/ORD
+美国    UNITED STATES   查尔斯顿    CHARLESTON  CHS
+美国    UNITED STATES   锡达拉皮兹  CEDAR RAPIDS    CID
+美国    UNITED STATES   克利夫兰    CLEVELAND   CLE
+美国    UNITED STATES   夏洛特  CHARLOTTE   CLT
+美国    UNITED STATES   哥伦布  COLUMBUS    CMH
+美国    UNITED STATES   科珀斯克里斯蒂  CORPUS CHRISTI  CRP
+美国    UNITED STATES   辛辛那提    CINCINNATI  CVG
+美国    UNITED STATES   代顿    DAYTON  DAY
+美国    UNITED STATES   丹佛    DENVER  DEN
+美国    UNITED STATES   达拉斯  DALLAS  DFW
+美国    UNITED STATES   得梅因  DES MOINES  DSM
+美国    UNITED STATES   底特律  DETROIT DTW
+美国    UNITED STATES   埃尔帕索    EL PASO ELP
+美国    UNITED STATES    伊利/伊利湖    ERIE    ERI
+美国    UNITED STATES   纽瓦克  NEWARK  EWR
+美国    UNITED STATES   埃文斯韦尔  EVANSVILLE  EVV
+美国    UNITED STATES   劳德代尔堡  FORT LAUDERDALE FLL
+美国    UNITED STATES   弗林特  FLINT   FNT
+美国    UNITED STATES   育空堡  FORT WAYNE  FWA
+美国    UNITED STATES   大急流域    GRAND RAPIDS    GRR
+美国    UNITED STATES   斯波坎  SPOKANE GEG
+美国    UNITED STATES   格林斯伯勒  GREENSBORO  GSO
+美国    UNITED STATES   格林维尔    GREENVILLE  GSP
+美国    UNITED STATES   格林贝  GREEN BAY   GRB
+美国    UNITED STATES   哈里斯堡    HARRISBURG  HAR
+美国    UNITED STATES   休斯敦  HOUSTON HOU/IAH
+美国    UNITED STATES   亨茨维尔    HUNTSVILLE  HSV
+美国    UNITED STATES   威奇托  WICHITA ICT
+美国    UNITED STATES   威尔明顿    WILMINGTON  ILM
+美国    UNITED STATES   印第安纳波利斯  INDIANAPOLIS    IND
+美国    UNITED STATES   杰克逊  JACKSON JAN
+美国    UNITED STATES   杰克逊威尔  JACKSONVILLE    JAX
+美国    UNITED STATES   拉斯维加斯  LAS VEGAS   LAS
+美国    UNITED STATES   洛杉机  LOS ANGELES LAX
+美国    UNITED STATES   列克星敦    LEXINGTON   LEX
+美国    UNITED STATES   小石城  LITTLE ROCK LIT
+美国    UNITED STATES   林肯    LINCOLN LNK
+美国    UNITED STATES   拉雷多  LAREDO  LRD
+美国    UNITED STATES   堪萨斯城    KANSAS CITY INTERNATIONAL APT   MCI
+美国    UNITED STATES   奥兰多  OLLANDO MCO
+美国    UNITED STATES   孟菲斯  MEMPHIS MEM
+美国    UNITED STATES   麦卡伦  MCALLEN MFE
+美国    UNITED STATES   迈阿密  MIAMA   MIA
+美国    UNITED STATES   堪萨斯  KANSAS CITY DOWNTOWN APT    MKC
+美国    UNITED STATES   密尔沃基    MILWAUKEE   MKE
+美国    UNITED STATES   麦迪逊  MADISON MSN
+美国    UNITED STATES   明利阿波利斯    MINNEAPOLIS MSP
+美国    UNITED STATES   新奥尔良    NEW ORLEANS MSY
+美国    UNITED STATES   莫比尔  MOBILE  MOB
+美国    UNITED STATES   纽约    NEWYORK NYC/JFK
+美国    UNITED STATES   俄克拉荷马城    OKLAHOMA   CITY OKC
+美国    UNITED STATES   奥马哈  OMAHA   OMA
+美国    UNITED STATES   诺福克  NORFOLK ORF
+美国    UNITED STATES   奥兰多  ORLANDO     ORL
+美国    UNITED STATES   西棕榈滩    WEST PALM BEACH PBI
+美国    UNITED STATES   波特兰  PORTLAND    PDX
+美国    UNITED STATES   费城    PHILADELPHIA    PHL/PHA
+美国    UNITED STATES   费尼克斯    PHOENIX PHX
+美国    UNITED STATES   皮奥里亚    PEORIA  PIA
+美国    UNITED STATES   匹兹堡  PITTSBURGH  PIT
+美国    UNITED STATES   彭萨科拉    PENSACOLA   PNS
+美国    UNITED STATES   普罗维登斯  PROVIDENCE  PVD
+美国    UNITED STATES   达拉谟  RALEIGH  DURHAM RDU
+美国    UNITED STATES   里士满  RICHMOND    RIC
+美国    UNITED STATES   里诺    RENO    RNO
+美国    UNITED STATES   罗彻斯特    ROCHESTER   ROC
+美国    UNITED STATES   圣迭戈  SAN DIEGO   SAN
+美国    UNITED STATES   圣安东尼奥  SAN ANTONIO SAT
+美国    UNITED STATES   萨凡纳  SAVANNAH    SAV
+美国    UNITED STATES   南本德  SOUTH BAND  SBN
+美国    UNITED STATES   路易斯维尔  LOUISVILLE  SDF
+美国    UNITED STATES   西雅图  SEATTLE SEA
+美国    UNITED STATES   西雅图  SEATTLE BFI
+美国    UNITED STATES   旧金山  SAN FRANCISCO   SFO
+美国    UNITED STATES   斯普林菲尔德    SPRINGFIELD SGF
+美国    UNITED STATES   什里夫波特  SHREVEPORT  SHV
+美国    UNITED STATES   盐湖城  SALT  LAKE  CITY    SLC
+美国    UNITED STATES   萨克拉门托  SACRAMENTO  SMF
+美国    UNITED STATES   圣路易斯    SAINT  LOUIS    STL
+美国    UNITED STATES   塔尔萨  TULSA   TUL
+美国    UNITED STATES   锡拉丘兹    SYRACUSE    SYR
+美国    UNITED STATES   托莱多  TOLEDO  TOL
+美国    UNITED STATES   坦帕    TAMPA   TPA
+美国    UNITED STATES   塔尔萨  TULSA   TUL
+美国    UNITED STATES   图森    TUCSON  TUS
+美国    UNITED STATES   诺科斯韦尔  KNOXVILLE   TYS
+中南美  CENTRAL & SOUTH AMERICA
+国家    COUNTRY 机场中文    机场英文名  三字代码
+墨西哥  MEXICO  墨西哥城    MEXICO CITY MEX
+危地马拉    GUATEMALA   危地马拉    GUATEMALA   GUA
+洪都拉斯    HONDURAS    特古西加尔巴    TEGUCIGALPA TGU
+萨尔瓦多    SALVADOR    圣萨尔瓦多  SAN  SALVADOR   SAL
+尼加拉瓜    NICARAGUA   马拉瓜  MANAGUA MGA
+哥斯达黎加  COSTA  RICA 圣何塞  SAN  JOSE   SJO
+巴拿马  PANAMA  巴拿马城(首都)  PANAMA CITY PTY
+巴哈马  BAHAMAS 拿骚    NASSAU  NAS
+古巴    CUBA    哈瓦那  LA  HABANA  HAV
+古巴    CUBA    圣地亚哥    SANTIAGO    SCU
+牙买加   JAMAICA    金斯敦  KINGSTON    KIN
+海地    HAITI   太子港  PORT-AU PRINCE  PAP
+多米尼加    DOMINICA    圣多明各    SANTO DOMINGO   SDQ
+波多黎各    PUERTO  RICO    圣胡安  SAN  JUAN   SJU
+多米尼克    DOMINICA    罗索    ROSEAU  ROX
+格林纳达     GRENADA    圣乔治  ST.GEORGE'S GND
+巴巴多斯     BARBADOS   布里奇顿    BRIDGETOWN  BGI
+特立尼达和多巴哥    TRINIDAD & TOBAGO   西班牙港    PORT  OF  SPAIN POS
+南美洲 SOUTH AMERICA
+国家    COUNTRY 机场中文    机场英文名  三字代码
+哥伦比亚    COLOMBIA    圣菲波哥达  STA.FE DE  BOGOTA   BOG
+委内瑞拉    VENEZUELA   加拉加斯(首都)  CARACAS CCS
+圭亚那  GUYANA  乔治敦  GEORGETOWN  GEO
+苏里南  SURINAME    帕拉马里博  PARAMARIBO  PBM
+法属圭那亚  FRENCH  GUIANA  卡宴    CAYENNE CAY
+巴西    BRAZIL  巴西利亚(首都)  BRASILIA    BSB
+巴西    BRAZIL  库里蒂巴    CURITIBA    CWB
+巴西    BRAZIL  阿雷格里港  PTO ALEGRE  POA
+巴西    BRAZIL  马卤斯  MANAUS  MAO
+巴西    BRAZIL  里约热内卢  RIP DE JANEURO  RIO
+巴西    BRAZIL  圣保罗  SAOPAULO    SAO
+厄瓜多尔    ECUADOR 基多    QUITO   UIO
+厄瓜多尔    ECUADOR 瓜尔基尔    GUAYAQUIL   GYE
+秘鲁     PERU   利马(首都)  LIMA    LIM
+玻利维亚    BOLIVIA 苏克雷  SUCRE   SRE
+巴拉圭   PARAGUAY   亚松森  ASUNCION    ASU
+乌拉圭  URUGUAY 蒙得维的亚  MONTEVIDEO  MVD
+阿根廷  ARGENTINA   布宜诺斯艾利斯  BUENOS AIRES    BUE
+智利    CHILE   安托法加斯塔    ANTOFAGASTA ANF
+智利    CHILE   圣地亚哥(首都)  SANTIAGO    SCL
+拉丁美洲 LATIN AMERICA
+国家    COUNTRY 机场中文    机场英文名  三字代码
+拉丁美洲     LATIN AMERICA  瓜德罗普    Pointe-a-Pitre  PTP
+二区（TC2）：欧洲大陆及毗邻岛屿，冰岛、亚速尔群岛，非洲大陆和毗邻岛屿，亚洲的伊朗及伊朗以西地区。
+欧洲 EUROPE
+国家    COUNTRY 机场中文    机场英文名  三字代码
+英国    UNITER KINGDOM  伦敦(首都)  LONDON  LON/LHR
+英国    UNITER KINGDOM  阿伯丁  ABERDEEN    ABZ
+英国    UNITER KINGDOM  伯明翰  BIRMINGHAM  BHX
+英国    UNITER KINGDOM  伯恩茅斯    BOURNEMOUTH BOH
+英国    UNITER KINGDOM  布里斯托尔  BRISTOL BRS
+英国    UNITER KINGDOM  加地夫  CARDIFF CWL
+英国    UNITER KINGDOM  爱丁堡  EDINBURGH   EDI
+英国    UNITER KINGDOM  埃克塞特    EXETER  EXT
+英国    UNITER KINGDOM  格拉斯哥    GLASGOW GLA
+英国    UNITER KINGDOM  利物浦  LIVERPOOL   LPL
+英国    UNITER KINGDOM  曼彻斯特    MANCHESTER  MAN
+英国    UNITER KINGDOM  诺里奇  NORWICH NWI
+英国    UNITER KINGDOM  普利茅斯    PLYMOUTH    PLH
+英国    UNITER KINGDOM  南安普敦    SOUTHHAMPTON    SOU
+英国    UNITER KINGDOM  布里斯托尔  BRISTOL BRS
+英国    UNITER KINGDOM  克里伊登    CROYDON CDQ
+英国    UNITER KINGDOM  考文垂  COVENTRY    CVT
+英国    UNITER KINGDOM  利兹    LEEDS  BRADFORD LBA
+英国    UNITER KINGDOM  朴茨茅斯    PORTSMOUTH  PME
+英国    UNITER KINGDOM  纽卡斯尔    NEWEASTLE   NCL
+英国    UNITER KINGDOM  亨伯赛德郡  HUMBERSIDE  HUY
+英国    UNITER KINGDOM  格拉斯哥     PRESTWICK  PIK
+英国    UNITER KINGDOM  诺丁汉  EAST  MIDLANDS  EMA
+北爱尔兰    NORTHERN IRELAND    贝尔法斯特  BELFAST BFS
+爱尔兰  IRELAND 都柏林  DUBLIN  DUB
+爱尔兰  IRELAND 科克    CORK    ORK
+爱尔兰  IRELAND 香农    SHANNON SNN
+比利时  BELGIUM 布鲁塞尔(首都)  BRUSSELS    BRU
+比利时  BELGIUM 安特卫普    ANTWERP ANR
+比利时  BELGIUM 奥斯坦德    OSTEND  OST
+卢森堡  LUXEMBOURG  卢森堡(首都)    LUXEMBOURG  LUX
+荷兰    NETHERLANDS 阿姆斯特丹(首都)    AMSTERDAM   AMS
+荷兰    NETHERLANDS 鹿特丹  ROTTERDAM   RTM
+荷兰    NETHERLANDS 爱恩德霍芬  EINDHOVEN   EIN
+荷兰    NETHERLANDS 恩斯赫德    ENSCHEDE    ENS
+丹麦    DANMARK 哥本哈根(首都)  COBENHAVN   CPH
+丹麦    DANMARK 阿尔伯格    ALLBORG ALL
+丹麦    DANMARK 奥胡斯  AARHUS  AAR
+丹麦    DANMARK 比灵顿  BILLUND BLL
+德国    GERMANY 柏林(首都)  BERLIN  BER/TXL
+德国    GERMANY 慕尼黑  MUNICH  MUC
+德国    GERMANY 不来梅  BREMEN  BRE
+德国    GERMANY 汉诺威  HANOVER HAJ
+德国    GERMANY 杜塞尔多夫  DUSSELDORF  DUS
+德国    GERMANY 法兰克福    FRANKFURT   FRA
+德国    GERMANY 莱比锡  LEIPZIG LEJ
+德国    GERMANY 杜伊斯堡    DUISBURG    DUI
+德国    GERMANY 斯图加特    STUTTGART   STR
+德国    GERMANY 汉堡    HAMBURG HAM
+德国    GERMANY 爱尔福特    ERFURT  ERF
+德国    GERMANY 明斯特  MUNSTER FMO
+德国    GERMANY 纽伦堡  NUREMBERG   NUE
+德国    GERMANY 德累斯顿    DRESDEN DRS
+德国    GERMANY 萨尔布吕肯  SAARBRUECKEN    SCN
+德国    GERMANY 科隆    COLDGNE/KOLN    CGN
+德国    GERMANY 多特蒙德    DORTMUND    DTM
+德国    GERMANY 比勒费尔德  BIELEFELD   BFE
+德国    GERMANY 开姆尼茨    CHEMNITZ    ZTZ
+德国    GERMANY 埃森    ESSEN   ESS
+德国    GERMANY 波恩    BONN    BON
+德国    GERMANY 重聚    REUNION RUN
+法国    FRANCE  巴黎(首都)  PARIS   PAR/CDG
+法国    FRANCE  马塞    MARSEILLE   MRS
+法国    FRANCE  里昂    LYON    LYS
+法国    FRANCE  波尔多  BORDEAUX    BOD
+法国    FRANCE  里尔    LILLE   LIL
+法国    FRANCE  图卢兹  TOULOUSE    TLS
+法国    FRANCE  南特    NANTES  NTE
+法国    FRANCE  牟罗兹  MULHOUSE    MLH
+法国    FRANCE  蒙彼利埃    MONTPELIER  MPL
+法国    FRANCE  格勒诺布尔  GRENOBLE    GNB
+法国    FRANCE  鲁昂    ROUEN   URO
+法国    FRANCE  尼斯    NICE    NCE
+法国    FRANCE  斯特拉斯堡  STRASBOURG  SXB
+法国    FRANCE  凡尔塞  VERSAILES   XVE
+法属波利尼  FRENCH POLYNESIA    帕皮提  Faaa    PPT
+摩纳哥  MONACO  摩纳哥  MONACO  XMM
+瑞士    SWITTZWRLAND    伯尔尼(首都)    BERN    BRN
+瑞士    SWITTZWRLAND    日内瓦  GENEVA  GVA
+瑞士    SWITTZWRLAND    苏黎世  ZURICH  ZRH
+瑞士    SWITTZWRLAND    巴塞尔  BASLE   BSL
+安道尔  ANDORRA 安道尔  ANDORRA ALV
+西班牙  SPAIN   (首都)  MADRID  MAD
+西班牙  SPAIN   阿利坎特    ALICANTE    ALC
+西班牙  SPAIN   巴塞罗那    BARCELONA   BCN
+西班牙  SPAIN   华伦西亚(巴伦比亚)  VALENCIA    VLC
+西班牙  SPAIN   塞尔维亚    SEVILLA SVQ
+西班牙  SPAIN   马拉加  MALAGA  AGP
+西班牙  SPAIN   巴利亚多利德    VALLADOLID  VLL
+葡萄牙  PORTUGAL    里斯本(首都)    LISBON  LIS
+葡萄牙  PORTUGAL    波尔图  PORTO   OPO
+意大利  ITALY   罗马(首都)  ROME    ROM
+意大利  ITALY   安齐奥  ALGHERO AHO
+意大利  ITALY   安科纳  ANCONA  AOI
+意大利  ITALY   布林迪西    BRINDISI    BDS
+意大利  ITALY   博洛尼亚    BOLOGNA BLQ
+意大利  ITALY   巴里    BARI    BRI
+意大利  ITALY   热那亚  GENOVA  GOA
+意大利  ITALY   米兰    MILAND  MIL/MXP
+意大利  ITALY   米兰市郊    　  SWK
+意大利  ITALY   拿坡里  NAPLES  NAP
+意大利  ITALY   威尼斯  VENICE  VCE
+意大利  ITALY   佛罗伦萨    FLORENCE    FLR
+意大利  ITALY   都灵    TURIN   TRN
+意大利  ITALY   的里雅斯特  TRIESTE TRS
+意大利  ITALY   卡塔尼亚    CATANIA CTA
+意大利  ITALY   塔兰托  TARANTO TAR
+意大利  ITALY   比萨    PISA    PSA
+意大利  ITALY   墨西拿  MESSINA QME
+意大利  ITALY   维罗纳  VERONA  VRN
+希腊    GREECE  雅典(首都)  ATHENS  ATH
+希腊    GREECE  塞萨洛尼基  THESSALONIKI    SKG
+奥地利  AUSTERA 维也纳(首都)    VIENNA  VIE
+奥地利  AUSTERA 林茨    LINZ    LNZ
+奥地利  AUSTERA 格拉茨  GRAZ    GRZ
+奥地利  AUSTERA 萨尔斯堡    SALZBURG    SZG
+奥地利  AUSTERA 因斯布鲁克  INNSBRUCK   INN
+捷克    CZECH REPUBLIC  布拉格(首都)    PRAGUE  PRG
+芬兰    FINLAND 赫尔辛基(首都)  HELSINKI    HEL
+瑞典    SWEDEN  斯德哥尔摩(首都)    STOCKHOLM   STO/ARN
+瑞典    SWEDEN  海尔辛堡    HELSINGBORG AGH
+瑞典    SWEDEN  哥德堡  GOTEBORG    GOT
+瑞典    SWEDEN  马尔默  MALMO   MMA/MMX
+瑞典    SWEDEN  北雪平  NORRKOPING  NRK
+挪威    NORWAY  奥斯陆(首都)    OSLO    OSL
+阿尔巴尼亚  ALBANIA 地拉那  TIRANA  TIA
+马其顿  MACEDONIA   斯科普里    SKOPJE  SKP
+保加利亚    BULGARIA    索非亚  SOFIJA  SOF
+南斯拉夫    YUGOSLAVIA  贝尔格莱德(首都)    BELGRADE    BEG
+罗马尼亚    ROMANIA 布加勒斯特(首都)    BUCHAREST   BUH
+摩尔多瓦    MOLDOVA 基希纳乌    Kishinev    KIV
+克罗地亚    CROATIA 萨格勒布    ZAGREB  ZAG
+斯洛文尼亚  SLOVENIA    卢布尔雅那  LJUBLJANA   LJU
+匈牙利  HUNGARY 布达佩斯    BUDAPEST    BUD
+斯洛伐克    SLOVAKIA    布拉迪斯拉发    BRATISLAVA  BTS
+波兰    POLAND  华沙(首都)  WARSAW  WAW
+波兰    POLAND  克拉克夫    KRAKOW  KRK
+立陶宛  LITHUANIA   维尔纽斯    VILNIUS VNO
+拉托维亚    LATVIA  里加    RIGA    RIX
+爱沙尼亚    ESTONIA 塔林    TALLINN TLL
+冰岛    ICELAND 雷克亚未克  REYKJAVIK   REK
+俄罗斯  RUSSIA  莫斯科  MOSKVA  MOW
+白俄罗斯    BELARUS 明斯克  MINSK   MSQ
+乌克兰  UKRAINE 基辅    KYIV    IEV/KBP
+波黑    BOSNIA AND HERZEGOVINA  萨拉热窝    SARAJEVO    SJJ
+西亚  (中东)  MIDDLE  EAST
+国家    COUNTRY 机场中文    机场英文名  三字代码
+伊朗    IRAN    德黑兰(首都)    TEHRAN  THR
+伊朗    IRAN    阿巴达  ABADAN  ABD
+阿富汗  AFGHANISTAN 喀布尔  KABUL   KBL
+科威特  KUWEIT  科威特(首都)    AL  KUWAIT  KWI
+沙特阿拉伯  SAUDI ARABIA    利雅得(首都)    RIYADH  RUH
+沙特阿拉伯  SAUDI ARABIA    吉达    JEDDAH  JED
+沙特阿拉伯  SAUDI ARABIA    达曼    DAMMAM  DMM
+也门    YEMEN   萨那    SANA    SAH
+也门    YEMEN   亚丁    ADEN    ADE
+伊拉克  IRAQ    巴格达(首都)    BAGHDAD BGW
+黎巴嫩  LEBANON 贝鲁特(首都)    BEIRUT  BEY
+黎巴嫩  LEBANON 巴林    BAHRAIN BAH
+阿联酋  UNITED ARAB EMIRATES    阿布扎比(首都)  ABU  DKABI  AUH
+阿联酋  UNITED ARAB EMIRATES    迪拜    DUBAI   DXB
+阿联酋  UNITED ARAB EMIRATES    沙加    SHARJAH SHJ
+卡塔尔  QATAR  多哈(首都)  DOHA    DOH
+以色列      ISREAL  耶路撒冷(首都)  JERUSALEM   JRD
+以色列      ISREAL  特拉维夫    TELAVIV-YAFO    TLV
+叙利亚  SYRIA   大马士革(首都)  DAMASCUS    DAM
+约旦    JORDAN  安曼(首都)  AMMAN   AMM
+土耳其  TURKEY  安卡拉(首都)    ANKARA  ANK
+土耳其  TURKEY  阿达那  ADANA   ADA
+土耳其  TURKEY  布尔萨  BURSA   BTZ
+土耳其  TURKEY  伊兹密尔    IZMIR   IZM
+土耳其  TURKEY  伊斯坦布尔  ISTANBUL    IST
+巴林    BAHRIAN 巴林    　  BAH
+塞浦路斯    CYPRUS  尼科西亚    NICOSIA NIC
+塞浦路斯    CYPRUS  拉纳卡  LARNACA LCA
+阿塞拜疆    AZERBAIJAN  巴库    BAKU    BAK
+亚美尼亚    ARMENIA 埃里温  YEREVAN EVN
+格鲁吉亚    GEORGIA 第比利斯    TBILISI TBS
+阿曼    OMAN    马斯喀特    MASIRAH MCT
+土库曼斯坦  TURKMENISTAN    阿什哈巴德  ASHKHABAD   ASB
+塔吉克斯坦  TAJIKISTAN  杜尚别  DUSHANBE    DYU
+哈萨克斯坦  KAZAKSTAN   卡拉干达    KARAGANDA   KGF
+吉尔吉斯斯坦    KYRGYZSTAN  比什凯克    BISHKEK FRU
+乌兹别克斯坦    UZBEKISTAN  塔什干  TASHKENT    TAS
+非洲  AFRICA
+国家    COUNTRY 机场中文    机场英文名  三字代码
+埃及    EGYPT   开罗(首都)  CAIRO   CAI
+苏丹    SUDAN   喀土穆(首都)    KHURTOM KRT
+苏丹    SUDAN   马斯喀特阿曼    MUSCAT  MCT
+埃塞俄比亚  ETHIOPIA    亚的斯亚贝巴    ADDIS  ABABA    ADD
+吉布提  DJIBOUTI    吉布提  DJIBOUTI    JIB
+肯尼亚  KENYA   内罗毕  NAIROBI NBO
+利比亚  LIBYA   的黎波里(首都)  TARABULUS   TIP
+阿尔及利亚      ALGERIA 阿尔及尔    ALGIERS ALG
+阿尔及利亚      ALGERIA 安纳巴  ANNABA  AAE
+突尼斯      TUNIS   突尼斯  TUNIS   TUN
+摩洛哥  MOROCCO 拉巴特  RABAT   RBA
+摩洛哥  MOROCCO 卡萨布兰卡  CASABLANCA  CAS
+乍得    CHAD    恩贾梅纳    NDJAMENA    NDJ
+尼日尔  NIGER   尼亚美  NIAMEY  NIM
+尼日利亚    NIGERIA 阿布贾  ABUJA   ABV
+尼日利亚    NIGERIA 拉各斯  LAGOS   LOS
+尼日利亚    NIGERIA 哈科特港    PORT HARCOURT   PHC
+马里    MALI    巴马科  BAMAKO  BKO
+布基纳法索  BURKINA FASO    瓦加杜古    OUAGADOUGOU OUA
+贝宁    BENIN   科托努  COTONOU COO
+多哥    TOGO    洛美    LOME    LFW
+加纳    GHANA   阿克拉  ACCRA   ACC
+科特迪瓦    COTE D'LVOIR    阿穆苏克罗  YAMOUSSOUKRO    ASK
+科特迪瓦    COTE D'LVOIR    阿比让  ABIDJIN ABJ
+塞拉利昂    SIERRA  弗里敦  FREETOWN    HGS
+利比里亚     LIBERIA    蒙罗维亚    MONROVIA    MLW
+几内亚  GUINEA  科纳克里    CONAKRY CKF
+塞内加尔    SENEGAL 达喀尔  DAKAR   DKR
+冈比亚   GAMBIA 班珠尔  BANJUL  BJL
+马里塔尼亚   MAURITANIA 努瓦克肖特  NOUAKCHOTT  KLA
+中非共和国  CENTRAL  AFRICAN  REP.  班吉    BANGUI  BGF
+喀麦隆  CAMEROON    雅温得(首都)    YAOUNED YAO
+赤道几内亚  EQUATORIAL  马拉博  MALABO  SSG
+乌干达  UGANDA  坎帕拉  KAMPALA KLA
+卢旺达  RWANDA  基加利  KIGALI  KGL
+坦桑尼亚    TANZANIA    达累斯萨拉姆    DAR-ES-SALAAM   DAR
+布隆迪    BURUNDI   布琼布拉    BUJUMBURA   BJM
+刚果    CONGO   布拉柴维尔  BRAZZAVILLE BZV
+加蓬     GABON  利伯维尔(首都)  LIBREVILLE  LBV
+圣多美和普林西比     SAO TOME & PRINCIPE    圣多美  SAO TOME    TMS
+莫桑比克    MOZAMBIQUE  马普托  MAPUTO  MPM
+马拉维  MALAWI  利隆圭  LILONGWE    LLW
+赞比亚  ZAMBIA  卢萨卡  LUSAKA  LUN
+津巴布韦    ZIMBABWE    哈拉雷  HARARE  HRE
+安哥拉   ANGOLA 罗安达  LUANDA  LAD
+博茨瓦纳    BOTSWANA    哈伯罗内    GABORONE    GBE
+纳米比亚    NAMIBIA 温得和克    WINDHOEK    WDH
+南非    SHOUTH  AFRICA  约翰内斯堡  JOHANNESBURG    JNB
+南非    SHOUTH  AFRICA  德班    DURBAN  DUR
+南非    SHOUTH  AFRICA  开普敦  CAPE  TOWN  CPT
+毛里求斯    MAURITIUS  毛里求斯    MAURITIUS   MRU
+马达加斯加  MADAGASCAR  塔那那利佛  ANTANNNARIVO    TNR
+科摩罗   COMOROS    莫罗尼  MORONI  YVA
+马埃    MAHE    塞舌尔群岛  SEYCHELLES  SEZ
+努瓦克肖特  NOUAKCHOTT  毛里塔尼亚  MAURITANIA  NKC
+三区（TC3）：由整个亚洲大陆及毗邻岛屿（已包括在二区的部分除外），澳大利亚、新西兰及毗邻岛屿，太平洋岛屿（已包括在一区的部分除外）组成
+亚洲 ASIA
+国家    COUNTRY 机场中文    机场英文名  三字代码
+中国    CHINA   香港    HONGKONG    HKG
+中国    CHINA   台北    TAIPEI  TPE
+中国    CHINA   高雄    KAOHSIUNG   KHH
+朝鲜    NORTH KOREA 平壤(首都)  PYONGYANG   FNJ
+韩国    SOUTH KOREA 汉城(首都)仁川  SEOUL   SEL/ICN
+韩国    SOUTH KOREA 釜山    PUSAN   PUS
+日本    JAPAN   东京(首都)  TOKYO   TYONRT
+日本    JAPAN   大阪    OSAKA   KIX/OSA
+日本    JAPAN   名古屋  NAGOYA  NGO
+日本    JAPAN   福冈    FUKUOKA FUK
+日本    JAPAN   横滨    YOKOHAMA    YOK
+日本    JAPAN   广岛    HIROSHIMA   HIJ
+日本    JAPAN   冲绳岛  OKINAWA OKA
+日本    JAPAN   仙台    SENDAI  SDJ
+日本    JAPAN   札幌    SAPPORO SPA
+菲律宾  PHILIPPINES 马尼拉(首都)    MANILA  MNL
+菲律宾  PHILIPPINES 宿务    CEBU    HEB
+菲律宾  PHILIPPINES 达沃    DAVAO   DVO
+马来西亚    MALAYSIA    吉隆坡(首都)    KUALA  LUMPUR   KUL
+马来西亚    MALAYSIA    槟城    PENNANG PEN
+马来西亚    MALAYSIA    凌家卫岛    LANGKAWI    LGK
+马来西亚    MALAYSIA    哥大基纳巴卢    KOKAKINABLU BKI
+马来西亚    MALAYSIA    古晋    KUCHING KCH
+马来西亚    MALAYSIA    怡宝    IPOH    IPH
+马来西亚    MALAYSIA    新山    JOHOR BAHRU JHB
+马来西亚    MALAYSIA    哥打巴鲁    KOTA BHARU  KBR
+马来西亚    MALAYSIA    诗巫    SIBU    SBW
+马来西亚    MALAYSIA    山打根  SANDAKAN    SDK
+文莱    BRUNEI  斯里巴加湾市(首都)  BANDAR  SERI  BEGAWAN   BWN
+新加坡  SINGAPORE   新加坡/樟宜      SINGAPORE  SIN
+印度尼西亚  INDONESIA   雅加达(首都)    JAKARTA JKT
+印度尼西亚  INDONESIA   棉兰    MEDAN   MES
+印度尼西亚  INDONESIA   泗水    SURABAYA    SUB
+印度尼西亚  INDONESIA   登巴萨  DENPASAR-BALL   DPS
+印度尼西亚  INDONESIA   乌戒潘当    UJUNGPANDANG    UPG
+印度尼西亚  INDONESIA   坤甸    PONTLANAK   PNK
+东帝汶  EAST TIMOR  帝力    DILI    DIL
+越南    VIETNAM 胡志明市(首都)  HO  CHI  MINH   SGN
+越南    VIETNAM 河内    HANOI   HAN
+越南    VIETNAM 海防    HAI PHONG   HPH
+老挝    LAOS    万象(首都)  VIENTLANE   VTE
+泰国    THAILAND    曼谷(首都)  BANGKOK BKK
+泰国    THAILAND    清迈    CHIANG MAI  CEI
+泰国    THAILAND    合艾    HATYAI  HDY
+泰国    THAILAND    普吉    PHUKET  HKT
+泰国    THAILAND    　  NAKHON SI THAMMARAT NSI
+缅甸    BURMA   仰光(首都)  YANGON  RGN
+缅甸    BURMA   曼德勒  MANDALAY    MDL
+柬埔寨  CAMBODIA    金边(首都)  PHNOM  PENH PNH
+孟加拉  BENGAL  达卡(首都)  DHARA   DAC
+孟加拉  BENGAL  吉大港  CHITTAGONG  CGP
+印度    INDIA   新德里(首都)    NEW  DELHI  DEL
+印度    INDIA   孟买    BOMBAY  BOM
+印度    INDIA   加尔各答    CALCUTTA    CCU
+印度    INDIA   马德拉斯    MADRAS  MAA
+印度    INDIA   班加罗尔    BANGALORE   BLR
+印度    INDIA   荷兰安得列斯群岛    St. Maarten ST.MAARTEN  SXM
+尼泊尔  NEPAL   加德满都(首都)  KATHMANDU   KTM
+巴基斯坦    PAKISTAN    伊斯兰堡(首都)  ISLAMABAD   ISB
+巴基斯坦    PAKISTAN    卡拉奇  KARACHI KHI
+巴基斯坦    PAKISTAN    拉合尔  LAHORE  LHE
+斯里兰卡    SRI LANKA   科伦坡(首都)    COLOMBO CMB
+马尔代夫    MALDIVES    马累    MALE    MLE
+蒙古    MONGOLIA    乌兰巴托    ULAN  BATOR ULN
+大洋州  OCEANIA
+国家    COUNTRY 机场中文    机场英文名  三字代码
+澳大利亚    AUSTALIA    堪培拉(首都)    CANBERRA    CBR
+澳大利亚    AUSTALIA    墨尔本  MELBOURNE   MEL
+澳大利亚    AUSTALIA    阿德莱得    ADELAIDE    ADL
+澳大利亚    AUSTALIA    达尔文  DARWIN  DRN
+澳大利亚    AUSTALIA    凯恩斯  CAIRNS  CAS
+澳大利亚    AUSTALIA    布里斯班    BRISBANE    BNE
+澳大利亚    AUSTALIA    珀斯    PERTH   PER
+澳大利亚    AUSTALIA    悉尼    SYDNEY  SYD
+新西兰  NEW ZEALAND 惠灵顿(首都)    WELL  INGTON    WLG
+新西兰  NEW ZEALAND 奥克兰  AUCKLAND    AKL
+新西兰  NEW ZEALAND 利特尔顿(基督城)    CHRISTCHURCH    CHC
+巴布亚新几内亚  PAPUA NEW GUINEA    莫尔兹比港(首都)    PORT  MOESBY    POM
+斐济群岛    FIJI  IS    苏瓦    SUVA    SUV
+基里巴斯     KIRIBATI   塔拉瓦  TARAWA  TRW
+所罗门群岛  SOLOMON  IS 霍尼亚拉    HONIARA HIR
+汤加    TONGA   努瓦阿洛法  NUKU’ALOFA  TBU
+萨摩亚      SAMOA   阿皮亚  APIA    APW
+图瓦卢  TUVALU  富纳富提    FUNAFUTI    FUN
+密克罗尼西亚    MICRONESIA  帕利基尔    PALIKIR KSA
+瓦努阿图    VANUATU 维拉港  VILA    VLI

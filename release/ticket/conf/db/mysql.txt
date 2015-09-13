@@ -1,0 +1,199 @@
+#mysql -uroot -pdxxxx@secu < /usr/local/apache2/htdocs/mysql.txt
+create database if not exists scan_lua;
+use scan_lua;
+
+drop table if EXISTS scan_master_slave;
+CREATE TABLE `scan_master_slave` (
+  `id` int UNSIGNED NOT NULL default 1,
+  `now_running` enum('master','slave') NOT NULL default 'master' comment 'by scan cgi change. scan client read',
+  `insert_time` timestamp NULL,
+  `update_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  KEY `running_index` (`now_running`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+insert into scan_master_slave(now_running, insert_time) values('master', now());
+
+drop table if EXISTS scan_user;
+CREATE TABLE `scan_user` (
+  `id` int UNSIGNED NOT NULL auto_increment,
+  `user` char(45) NOT NULL ,
+  `password` char(45) NOT NULL ,
+  `passwd_md5` char(45) NOT NULL ,
+  `ip` char(45) NOT NULL default "",
+  `biz` char(45) NOT NULL ,
+  `group_name` enum('users','admin') NOT NULL default 'users',
+  `insert_time` timestamp NULL,
+  `last_access_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+   `last_ip` char(45) NOT NULL DEFAULT '',
+  `login_fail_count` int(5) NOT NULL DEFAULT '0' COMMENT '一天登录失败次数',
+  `site` char(45) NOT NULL DEFAULT '' COMMENT '此用户允许扫描的站点,可以用正则',
+  PRIMARY KEY (`id`),
+  KEY `name_index` (`user`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+#insert into scan_user(user, password, passwd_md5, biz, site, insert_time) values('test', 'test','098f6bcd4621d373cade4e832627b4f6', '腾讯', '.*', now());
+insert into scan_user(user, password, passwd_md5, biz, site, insert_time) values('nodata', 'nodata','ba7879f8819d6b74aa4dd9e24b2fe90e', '腾讯', '.*', now());
+insert into scan_user(user, password, passwd_md5, biz, site, group_name, insert_time) values('gino', 'gino@test','1bcabfb97f5bd95c44928a54a42401ac', '腾讯', '.*', 'admin', now());
+#任务
+drop table if EXISTS scan_task;
+CREATE TABLE `scan_task` (
+  `id` int UNSIGNED NOT NULL auto_increment,
+  `user` char(45) NOT NULL ,
+  `name` char(100) NOT NULL ,
+  `urls` varchar(10240) NOT NULL comment 'json protocol: ["http://qq.com","http://baidu.com"]',
+  `time_type` enum('temporary','regular') NOT NULL default 'temporary',
+  #`regular` char(20) NOT NULL DEFAULT '' comment '1 * * * *',
+  #`regular_cycle` enum('month','week','day','') NOT NULL default '' comment '为空表示此字段不需要考虑',
+  #`regular_day` int(5) NOT NULL default 0 comment '表示N号或者周N, 0表示此字段不需要考虑',
+  `regular_day` int(5) NOT NULL default 0 comment '表示N天一次, 0表示此字段不需要考虑',
+  `regular_time` char(45) NOT NULL default '' comment 'hh:mm',
+  `entry_type` enum('crawl_scan','scan') NOT NULL default 'crawl_scan',
+  `report_mail` varchar(1024) NOT NULL DEFAULT '' comment '',
+  `entry_url` varchar(1024) NOT NULL DEFAULT '' comment '',
+  `assist_info` text not null default '' comment 'json protocol: {"task-rules":"all/rulename[,rulename...]","task-realip":"hostip", "sleep":1000, "addheaderkeyvalue":["key1=value1","key2=value2"], "addargskeyvalue":"key1=value1&key2=values2"}',
+  #`status` int(5) NOT NULL default 0 comment '0: unusable; 1: init; 2: scanning; 3: scanned; 4: failed; 5: stoped; 6: rescan',
+  `status` int(5) NOT NULL default 0 comment '0: unusable, 1~10: for_client, 2: scanning, 3: scanned, 4: failed. 11~20: for_cgi 11: init, 12: start_scan, 13: re_scan, 14: stop_scan, 15: del_task . 21~30: for_common ',
+  `scan_count` int NOT NULL default 0 comment '',
+  #`result_info` char(45) NOT NULL default '' comment 'fail reason',
+  #`parent_id` int UNSIGNED NOT NULL default 0 comment 'one task have multi domain -> one task per domain, same parent_id',
+  `insert_time` timestamp NULL,
+  `update_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `last_scan_time` timestamp NULL comment '最近一次的扫描开始时间，插入single_scan时同时需要更新此字段',
+  #`start_time` timestamp NULL,
+  #`end_time` timestamp NULL,
+  PRIMARY KEY (`id`)
+#, KEY `name_index` (`name`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+#insert into scan_task(user, name, urls, time_type, regular_day, regular_time,assist_info,status,scan_count,insert_time,last_scan_time) values("test", "task1", "[\"http://qq.com/home.html\",\"http://baidu.com/home.html\"]", "temporary", "1", "", "{\"task_realip\":\"172.25.32.42:8080\"}", 11, 1,now(),now());
+#insert into scan_task(user, name, domain, time_type, regular, entry_url, entry_type, assist_info,insert_time) values("test", "task2", "baidu.com", "temporary", "", "http://baidu.com/vul.php", "scan", '{"task-realip":"172.25.32.42:8080"}', 'now()');
+#单次扫描,包括
+drop table if EXISTS single_scan;
+CREATE TABLE `single_scan` (
+  `id` int UNSIGNED NOT NULL auto_increment,
+  `task_id` int UNSIGNED NOT NULL comment 'include task info: speed, host, agent...',
+  `url` varchar(1024) NOT NULL comment 'such as: "http://www.qq.com/"',
+  `entry_url` varchar(1024) NOT NULL default '' comment 'such as: "http://www.qq.com/map.html"',
+  `title` varchar(1024) NOT NULL comment '',
+  #`report_name` char(45) NOT NULL comment 'such as: sql injection && xss ...client_provide',
+  `waste_time` int UNSIGNED NOT NULL comment 'second. client_provide',
+  #`score` int UNSIGNED NOT NULL default 100 comment 'client_provide',
+  #`serious_degree` enum('high','medium','low') NOT NULL default 'medium' comment 'client_provide',
+  `websrv_info` varchar(1024) NOT NULL default '' comment 'websrv info: apache version, php ...',
+  `port_info` varchar(1024) NOT NULL default '' comment 'json protocol. ["3306", "22"]...',
+  `subdomain_info` text NOT NULL default '' comment 'json protocol. ["1.qq.com","2.qq.com"] client_provide',
+  `url_tree` longtext NOT NULL default '' comment 'json protocol. client_provide',
+  #`scan_result` varchar(1024) NOT NULL comment 'json: {"high_risk":N,"low_risk":N}',
+  `progress` int UNSIGNED NOT NULL default 0 comment 'N%',
+  `scan_idx` int UNSIGNED NOT NULL default 0 comment 'see scan_task scan_count',
+  `status` int(5) NOT NULL default 0 comment '1: init, 2: scanning, 3: scanned, 4: failed',
+  `result_info` varchar(1024) NOT NULL default '' comment 'fail reason',
+  `insert_time` timestamp NULL  ,
+  `update_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+#, KEY `name_index` (`name`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 comment '单次扫描,包括扫描结束后的报告信息';
+#insert into single_scan(task_id,url,title,report_name,waste_time,score,serious_degree,url_tree,scan_result,scan_idx,insert_time) values(42, "http://qq.com/home.html","qq","sql injection",100,50,"low","", "", 1,now());
+#insert into single_scan(task_id,url,title,report_name,waste_time,score,serious_degree,url_tree,scan_result,scan_idx,insert_time) values(42, "http://baidu.com/home.html","qq","sql injection",100,50,"low","", "", 1,now());
+
+
+drop table if EXISTS scan_vul_detail;
+CREATE TABLE `scan_vul_detail` (
+  `id` int UNSIGNED NOT NULL auto_increment,
+  `scan_id` int UNSIGNED NOT NULL comment 'join scan_vulreport table on the id. scansrv_provide',
+  #`vul_type_id` int UNSIGNED NOT NULL comment 't_vuln_type table(ruleid). vul info: type, descrption. scansrv_provide',
+  `vul_name` char(45) NOT NULL default '' comment 'rule. scansrv_provide',
+  `small_vul_name` char(45) NOT NULL default '' comment 'small rule. scansrv_provide',
+  `url` text NOT NULL comment 'request url. scansrv_provide',
+  `uri` char(255) NOT NULL DEFAULT '' COMMENT 'for repeat',
+  `method` char(10) NOT NULL default 'GET' comment 'GET,POST... scansrv_provide',
+  `problem_cgi_param` char(10) NOT NULL default '' comment 'scansrv_provide',
+  `test_example` varchar(1024) NOT NULL default '' comment 'input content. scansrv_provide',
+  `ori_req_header` text NOT NULL comment 'use for verify the vul. scansrv_provide',
+  `ori_req_post` text NOT NULL default '' comment 'use for verify the vul. scansrv_provide',
+  `ori_resp_header` text NOT NULL comment 'use for verify the vul. scansrv_provide',
+  `insert_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uri_vul` (`scan_id`,`vul_name`,`method`,`problem_cgi_param`,`uri`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+#insert into scan_vul_detail(scan_id, vul_name, small_vul_name,url,method,problem_cgi_param,ori_req_header, ori_req_post, ori_resp_header) values(4004, "","iis_short_file_rule_0", "http://qq.com/home.html?key=value&a=bb/etc/password", "GET", "a=bb/etc/password","","","");
+#insert into scan_vul_detail(scan_id, vul_name, small_vul_name,url,method,problem_cgi_param,ori_req_header, ori_req_post, ori_resp_header) values(4004, "","xss_reflection_rule_0", "http://qq.com/home.html?key=value&b=ccadmin.php", "GET", "b=ccadmin.php","","","");
+#insert into scan_vul_detail(scan_id, vul_name, small_vul_name,url,method,problem_cgi_param,ori_req_header, ori_req_post, ori_resp_header) values(4010, "","xss_reflection_rule_1", "http://baidu.com/home.html?key=value&jj=kkk/etc/password", "GET", "jj=kkk/etc/password","","","");
+#insert into scan_vul_detail(task_id, vul_name, ori_req_header, ori_req_post, ori_resp_header) values(2, "rule2", "http://172.25.32.42:8080/vul.php?key=sleep(1)", "", "");
+
+#小类
+drop table  if EXISTS scan_small_rules;
+CREATE TABLE `scan_small_rules` (
+  `id` int UNSIGNED NOT NULL auto_increment,
+  `name` char(45) NOT NULL ,
+  `group_id` int UNSIGNED NOT NULL default 0 comment 'belong to the rule group(scan_rules)',
+  `flag` int UNSIGNED NOT NULL default 0 comment '0: using; 1: unusable',
+  #`level` enum('high_risk','medium_risk','low_risk') NOT NULL default 'low_risk',
+  `score` int UNSIGNED NOT NULL default 0 comment '',
+  `insert_time` timestamp NULL ,
+  `update_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  UNIQUE  KEY `name_index` (`name`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+#大类(对应lua文件),对于用户添加的rules，都视作大类，新建一个小类，小类名称跟大类一样, 原本属于的大类id放在group_id
+drop table  if EXISTS scan_rules;
+CREATE TABLE `scan_rules` (
+  `id` int UNSIGNED NOT NULL auto_increment,
+  `user` char(45) NOT NULL default '',
+  `name` char(45) NOT NULL comment '',
+  `cn_name` char(100) NOT NULL comment '中文名称,显示到前台',
+  `type` enum('general','custom','collect','public') NOT NULL default 'general' comment 'custom为用户添加的规则',
+  #`group_id` int UNSIGNED NOT NULL default 0 comment 'belong to the group',
+  `task_id` int UNSIGNED NOT NULL default 0 comment 'temporary rule, just be valid for the task',
+  `content` text NOT NULL default '',
+  `content_luafile` text NOT NULL default '',
+  `flag` int UNSIGNED NOT NULL default 0 comment '0: using; 1: unusable',
+  `detail_descript` text NOT NULL default '',
+  `fix_project` text NOT NULL default '',
+  `level` enum('high_risk','medium_risk','low_risk', 'tips_risk') NOT NULL default 'low_risk',
+  `payload` enum('dir','param','') NOT NULL default '',
+  `request_input` char(100) NOT NULL comment '',
+  `task_response_match` char(100) NOT NULL comment '',
+  #`group_id` int UNSIGNED NOT NULL default 0 comment 'belong to the group',
+  `insert_time` timestamp NULL ,
+  `update_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  UNIQUE  KEY `name_index` (`name`)
+  #UNIQUE  KEY `cnname_index` (`cn_name`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+#insert into scan_rules(user, name, cn_name, type, task_id, detail_descript, content, insert_time) values('test', 'self_vul_1','self_vul_1', 'custom', 0,  'custom', '',now());
+insert into scan_rules(name, cn_name,type,  task_id, detail_descript, content, insert_time) values('collect','collect', 'collect', 1,  'collect all rules', '',now());
+#insert into scan_rules(name, cn_name,type, task_id, detail_descript, insert_time) values('xss_detect', 'general', 1,  'xss',now());
+
+set global max_allowed_packet=20971520;
+quit
+# 移除
+drop table if EXISTS scan_rule_group;
+CREATE TABLE `scan_rule_group` (
+  `id` int UNSIGNED NOT NULL auto_increment,
+  `name` char(45) NOT NULL ,
+  `detail_descript` char(255) NOT NULL default '',
+  `insert_time` timestamp NULL,
+  `update_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  KEY `name_index` (`name`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+insert into scan_rule_group(name, detail_descript, insert_time) values('xss', 'xss group', now());
+insert into scan_rule_group(name, detail_descript, insert_time) values('sql', 'sql group', now());
+
+#移除
+#任务结束之后.client根据scan_vul_detail表操作此数据库?
+drop table if EXISTS scan_vul_report;
+CREATE TABLE `scan_vul_report` (
+  `id` int UNSIGNED NOT NULL auto_increment,
+  `task_id` int UNSIGNED NOT NULL comment 'include task info: entry_url, speed, host, agent...',
+  `report_name` char(45) NOT NULL comment 'such as: sql injection && xss ...client_provide',
+  `waste_time` int UNSIGNED NOT NULL comment 'second. client_provide',
+  `score` int UNSIGNED NOT NULL default 100 comment 'client_provide',
+  `serious_degree` enum('high','medium','low') NOT NULL default 'medium' comment 'client_provide',
+  `url_tree` text NOT NULL default '' comment 'json protocol. client_provide',
+  `scan_result` varchar(1024) NOT NULL comment 'json: {"high_risk":N,"low_risk":N}',
+  `insert_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  #`history_task` int UNSIGNED NOT NULL comment '',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+#insert into scan_vul_report(task_id, report_name, waste_time, score, serious_degree) values(1, 'safe', 300, 100, 'low');
+#insert into scan_vul_report(task_id, report_name, waste_time, score, serious_degree) values(2, '2 vul: xss, sql', 500, 50, 'medium');

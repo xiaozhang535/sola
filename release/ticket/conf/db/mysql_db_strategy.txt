@@ -1,0 +1,89 @@
+#mysql -uroot -paxx2xx < /usr/local/apache2/htdocs/mysql.txt
+create database if not exists ticket_lua;
+use ticket_lua;
+
+drop table if EXISTS officegroup;
+CREATE TABLE `officegroup` (
+  `officegroupid` int UNSIGNED NOT NULL ,
+  `officeenable` char(6) NOT NULL default "",
+  `officename` char(20) NOT NULL default "",
+  `iswork` char(6) NOT NULL default "False",
+  `worktime` varchar(100) NOT NULL default "",
+  `update_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP comment 'YY-MM-DD',
+  PRIMARY KEY (`officegroupid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+insert into officegroup(officegroupid, officeenable, officename, iswork, worktime) values(101, "True", "境外票常规可VOID","True","一,二,三,四,五,08:30至18:00,六,08:30至12:00");
+insert into officegroup(officegroupid, officeenable, officename, iswork, worktime) values(480, "True", "航空公司GSA开票","True","一,二,三,四,五,08:30至17:00");
+insert into officegroup(officegroupid, officeenable, officename, iswork, worktime) values(628, "True", "白天","False","一,二,三,四,五,六,日,节日,08:30至18:00");
+insert into officegroup(officegroupid, officeenable, officename, iswork, worktime) values(629, "True", "长时间","True","一,二,三,四,五,六,日,节日,08:30至23:00");
+insert into officegroup(officegroupid, officeenable, officename, iswork, worktime) values(630, "True", "境外票不可VOID","True","一,二,三,四,五,六,日,节日,08:30至23:00");
+insert into officegroup(officegroupid, officeenable, officename, iswork, worktime) values(646, "True", "MOW境外电子票","True","一,二,三,四,五,六,日,节日,08:30至23:00");
+
+drop table if EXISTS strategy;
+CREATE TABLE `strategy` (
+  `i` int UNSIGNED NOT NULL auto_increment,
+  `id` char(12) NOT NULL default "",
+  `carrier` char(5) NOT NULL ,
+  `carriersame` char(5) NOT NULL default "",
+  `officeprovider` char(10) NOT NULL default "",
+  `officegroupid` int UNSIGNED NOT NULL default 0 comment 'tmp',
+  `officeticket` char(10) NOT NULL default "",
+  `tickettype` char(10) NOT NULL default "",
+  `ticketauditing` char(6) NOT NULL default "False",
+  `pcc` char(5) NOT NULL ,
+  `validplace` char(12) NOT NULL ,
+  `adutype` int UNSIGNED NOT NULL,
+  `chdway` int UNSIGNED NOT NULL,
+  `chdnone` char(6) NOT NULL default "False",
+  `mixseason` int UNSIGNED NOT NULL,
+  `mixberth` int UNSIGNED NOT NULL,
+  `mixsb` int UNSIGNED NOT NULL,
+  `mixbase` int UNSIGNED NOT NULL,
+  `dategroup` text comment "to datelist. ",
+  `voyagetype` int UNSIGNED NOT NULL,
+  `deplimit` char(6) NOT NULL default "False",
+  `depcitys` text,
+  `deparea` text,
+  `arrlimit` char(6) NOT NULL default "False",
+  `arrcitys` text,
+  `arrarea` text,
+  `backlimit` char(6) NOT NULL default "False",
+  `backcitys` text,
+  `backarea` text,
+  `changgncity` text comment 'tmp',
+  `changgjcity` text comment 'tmp',
+  `flightsgo` char(15) NOT NULL default "无",
+  `flightsback` char(15) NOT NULL default "无",
+  `flightsnone` char(15) NOT NULL default "无",
+  `voyagenone` char(15) NOT NULL default "无",
+  `ruleid` char(20) NOT NULL default "" comment 'tmp',
+  `personnum` int UNSIGNED NOT NULL default 0 comment 'person',
+  `persondouble` char(6) NOT NULL default "False",
+  `yearsfrom` int UNSIGNED NOT NULL default 0 comment 'years',
+  `yearsto` int UNSIGNED NOT NULL default 0,
+  `record` int UNSIGNED NOT NULL default 0,
+  `recordoffice` char(40) NOT NULL default "",
+  `recordnoright` char(6) NOT NULL default "False",
+  `discountnone` varchar(100) NOT NULL default "",
+  `addon` int UNSIGNED NOT NULL,
+  `spa` int UNSIGNED NOT NULL,
+  `pricelow` char(6) NOT NULL default "False",
+  `pricemin` int UNSIGNED NOT NULL,
+  `pricemax` int UNSIGNED NOT NULL,
+  `aheadday` char(10) NOT NULL default "",
+  `nonstop` char(6) NOT NULL default "False",
+  `carrieridentity` char(6) NOT NULL default "False",
+  `remark` text,
+  `flag` char(20) NOT NULL default "",
+
+  `account_id` int UNSIGNED NOT NULL,
+
+  `update_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP comment 'YY-MM-DD',
+  `changecitys` char(15) NOT NULL default "无" comment 'tmp ChangGNCity? or ChangGJCity?',
+  `other` varchar(100) NOT NULL default "",
+  `isauditing` char(6) NOT NULL default "False",
+  `recordlimt` char(20) NOT NULL default "",
+  `sharequnar` char(6) NOT NULL default "False",
+  `itinerary` text,
+  PRIMARY KEY (`i`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;

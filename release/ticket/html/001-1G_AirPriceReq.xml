@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- Release 15.1 -->
+<!-- Version Dated as of 11/May/2015 15:11:13 -->
+<!-- Air Pricing For Galileo(1G) with LFS Request -->
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <air:AirPriceReq xmlns:air="http://www.travelport.com/schema/air_v31_0" AuthorizedBy="user" CheckFlightDetails="true" TargetBranch="P7022986" TraceId="trace">
+      <com:BillingPointOfSaleInfo xmlns:com="http://www.travelport.com/schema/common_v31_0" OriginApplication="UAPI"/>
+      <air:AirItinerary>
+        <air:AirSegment Key="Rd+BMvOxSlaRUh5QXH+1KQ==" Group="0" Carrier="UA" FlightNumber="1586" Origin="SFO" Destination="MCO" DepartureTime="2015-08-05T06:30:00.000-07:00" ArrivalTime="2015-08-05T17:59:00.000-04:00" FlightTime="509" Distance="2438" ETicketability="Yes" Equipment="739" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail exists" OptionalServicesIndicator="false" NumberOfStops="1" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop" ProviderCode="1G"/>
+      </air:AirItinerary>
+      <!--air:AirPricingModifiers CurrencyType="CNY" ProhibitNonRefundableFares="true">
+                <air:PenaltyFareInformation ProhibitPenaltyFares="true"/>
+            </air:AirPricingModifiers-->
+      <air:AirPricingModifiers CurrencyType="CNY">
+            </air:AirPricingModifiers>
+      <com:SearchPassenger xmlns:com="http://www.travelport.com/schema/common_v31_0" BookingTravelerRef="gr8AVWGCR064r57Jt0+8bA==" Code="ADT"/>
+      <air:AirPricingCommand>
+            </air:AirPricingCommand>
+    </air:AirPriceReq>
+  </soapenv:Body>
+</soapenv:Envelope>

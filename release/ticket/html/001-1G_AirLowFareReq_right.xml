@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <air:LowFareSearchReq xmlns:air="http://www.travelport.com/schema/air_v31_0" xmlns:com="http://www.travelport.com/schema/common_v31_0" AuthorizedBy="user" SolutionResult="true" TargetBranch="P7022986" TraceId="trace">
+      <com:BillingPointOfSaleInfo OriginApplication="UAPI"/>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:Airport Code="SFO"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:Airport Code="MCO"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2015-08-05"/>
+      </air:SearchAirLeg>
+      <air:AirSearchModifiers MaxSolutions="1">
+        <air:PreferredProviders>
+          <com:Provider Code="1G"/>
+        </air:PreferredProviders>
+      </air:AirSearchModifiers>
+      <com:SearchPassenger BookingTravelerRef="gr8AVWGCR054r57Jt0+8bA==" Code="ADT"/>
+      <!--air:AirPricingModifiers CurrencyType="CNY" /-->
+    </air:LowFareSearchReq>
+  </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,20 @@
+#mysql -uroot -paxx2xx < /usr/local/apache2/htdocs/mysql.txt
+create database if not exists ticket_lua;
+use ticket_lua;
+
+drop table if EXISTS iata;
+CREATE TABLE `iata` (
+  `id` int UNSIGNED NOT NULL auto_increment,
+  `iata` char(3) NOT NULL ,
+  `icao` char(5) NOT NULL default "",
+  `describe` varchar(1024) NOT NULL default "",
+  `berth1` varchar(1024) NOT NULL default "",
+  `berth2` varchar(1024) NOT NULL default "",
+  `berth3` varchar(1024) NOT NULL default "",
+  `berth4` varchar(1024) NOT NULL default "",
+  `berth5` varchar(1024) NOT NULL default "",
+  `update_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP comment 'YY-MM-DD',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `iata` (`iata`) 
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+

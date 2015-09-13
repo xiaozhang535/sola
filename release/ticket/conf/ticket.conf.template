@@ -1,0 +1,121 @@
+
+user  root;
+worker_processes 1; 
+daemon off;
+cmdlisten <PAR_LOCALIP>:9091;
+
+#error_log  logs/error.log;
+error_log  logs/error.log debug; #debug; #notice;debug
+#error_log  logs/error.log  debug;
+
+#pid        logs/nginx.pid;
+worker_rlimit_core 1024M;
+working_directory /tmp/;
+
+worker_rlimit_nofile 10240;
+events {
+    worker_connections  10240;
+    multi_accept        on;
+    use                 epoll;
+}
+
+
+http {
+    include       mime.types;
+    default_type  application/octet-stream;
+    
+
+    #log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+    #                  '$status $body_bytes_sent "$http_referer" '
+    #                  '"$http_user_agent" "$http_x_forwarded_for"';
+
+    #access_log  logs/access.log  main;
+
+    sendfile        on;
+    #tcp_nopush     on;
+
+    tcp_nopush         on;
+    tcp_nodelay        on;
+    connection_pool_size  2560;
+
+    keepalive_timeout  0;
+    #keepalive_timeout  65;
+    server_tokens on;
+    proxy_pass_header Set-Cookie;
+    proxy_pass_header Server;
+    client_max_body_size 16m;
+
+    upstream backend {
+        server apac.universal-api.pp.travelport.com:443 max_fails=3;
+        #server <PAR_LOCALIP> max_fails=3;
+        #server <PAR_LOCALIP>:8888 max_fails=3;
+    }
+    lua_package_path '"/root/ticket_src/release/ticket/conf/?.lua" .. ";/root/ticket_src/release/ticket/conf/lua_conf/?.lua"';
+    init_by_lua ' package.path = package.path .. ";/root/ticket_src/release/ticket/conf/?.lua"
+                 require("LuaXml");
+                ';
+    server {
+        listen       <PAR_LOCALIP>:80;
+        server_name  localhost;
+        #resolver 8.8.8.8 8.8.4.4;
+        resolver 10.211.55.1;
+        resolver_timeout 10s;
+
+        underscores_in_headers on;
+        #charset koi8-r;
+
+        #access_log  logs/host.access.log  main;
+        #no such: FastCGI sent in stderr: "Primary script unknown"
+        location / { 
+            root   /root/ticket_src/release/ticket/html;
+            index  index.php index.html index.htm;
+        } 
+        #use upstream
+        location ~* ^\/B2BGateway(\/.*)$ {
+            #set $args "a=1";
+            #set $var_test $args;
+            #set_by_lua $var_test "return ngx.req.raw_header()";
+            #proxy_pass_request_headers off;
+            #proxy_pass http://<PAR_LOCALIP>:8888$1;
+            #proxy_set_header  Accept-Encoding  ""; #gzip luaxml
+            proxy_set_header  Host "apac.universal-api.pp.travelport.com";
+            proxy_http_version 1.1;
+            proxy_connect_timeout 60;
+            proxy_read_timeout 120;
+            proxy_pass https://backend;
+        }
+        location /search {
+            #default_type 'text/plain';
+            content_by_lua_file /root/ticket_src/release/ticket/conf/search.lua;
+        }
+        location /verify {
+            #default_type 'text/plain';
+            content_by_lua_file /root/ticket_src/release/ticket/conf/verify.lua;
+        }
+        location /order {
+            default_type 'text/plain';
+            content_by_lua_file /root/ticket_src/release/ticket/conf/order.lua;
+        }
+        location /pay {
+            default_type 'text/plain';
+            content_by_lua_file /root/ticket_src/release/ticket/conf/pay.lua;
+        }
+        location ~ \.php$ {
+            root           /root/ticket_src/release/ticket/html/ ;
+            fastcgi_pass   127.0.0.1:9000;
+            fastcgi_index  index.php;
+            fastcgi_param  SCRIPT_FILENAME  /root/ticket_src/release/ticket/html/$fastcgi_script_name;
+            include        fastcgi_params;
+        } 
+        #error_page  404              /404.html;
+
+        # redirect server error pages to the static page /50x.html
+        #
+        error_page   500 502 503 504  /50x.html;
+        location = /50x.html {
+            root   html;
+        }
+
+    }
+
+}

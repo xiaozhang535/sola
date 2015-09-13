@@ -1,0 +1,35 @@
+#mysql -uroot -paxx2xx < /usr/local/apache2/htdocs/mysql.txt
+create database if not exists ticket_lua;
+use ticket_lua;
+
+drop table if EXISTS company;
+CREATE TABLE `company` (
+  `id` int UNSIGNED NOT NULL auto_increment,
+  `comname` char(45) NOT NULL ,
+  `update_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  KEY `name_index` (`comname`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+insert into company(comname) values('superadmin');
+insert into company(comname) values('深圳市环游天下航空服务有限公司');
+insert into company(comname) values('other company');
+
+drop table if EXISTS user;
+CREATE TABLE `user` (
+  `id` int UNSIGNED NOT NULL auto_increment,
+  `user` char(45) NOT NULL ,
+  `password` char(45) NOT NULL ,
+  `passwd_md5` char(45) NOT NULL default '',
+  `company_id` int UNSIGNED NOT NULL,
+  `ip` char(45) NOT NULL default "",
+  `group_name` enum('users','admin') NOT NULL default 'users',
+  `last_access_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `last_ip` char(45) NOT NULL DEFAULT '',
+  `login_fail_count` int(5) NOT NULL DEFAULT '0' COMMENT '一天登录失败次数',
+  PRIMARY KEY (`id`),
+  KEY `name_index` (`user`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+insert into user(user, password, company_id, group_name) values('gino', 'test', 1, 'admin');
+insert into user(user, password, company_id, group_name) values('gary', 'test', 2, 'admin');
+insert into user(user, password, company_id) values('test', 'test', 2);
+insert into user(user, password, company_id) values('other', 'test', 3);

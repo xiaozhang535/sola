@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP:Body>
+    <air:LowFareSearchRsp xmlns:air="http://www.travelport.com/schema/air_v31_0" xmlns:common_v31_0="http://www.travelport.com/schema/common_v31_0" TraceId="trace" TransactionId="F98E5C770A076478F7E550531DA5200C" ResponseTime="9908" DistanceUnits="MI" CurrencyType="CNY">
+      <common_v31_0:ResponseMessage Code="4039" Type="Warning" ProviderCode="1G">"Result size exceeded the maximum allowable and some results were discarded. It may be necessary to narrow your search using search modifiers."</common_v31_0:ResponseMessage>
+      <air:FlightDetailsList>
+        <air:FlightDetails Key="hUfX+o4/Qqy5R5SDvNitdA==" Origin="SFO" Destination="MSP" DepartureTime="2015-08-08T23:55:00.000-07:00" ArrivalTime="2015-08-09T05:22:00.000-05:00" FlightTime="207" TravelTime="513" Equipment="73G" OriginTerminal="I" DestinationTerminal="2"/>
+        <air:FlightDetails Key="9dh3gZQyQqWMPpdTESyUsQ==" Origin="MSP" Destination="MCO" DepartureTime="2015-08-09T07:25:00.000-05:00" ArrivalTime="2015-08-09T11:28:00.000-04:00" FlightTime="183" TravelTime="513" Equipment="738" OriginTerminal="2"/>
+        <air:FlightDetails Key="Wuf4YwwQTK+v0LdGfXAygQ==" Origin="SFO" Destination="MSP" DepartureTime="2015-08-08T00:30:00.000-07:00" ArrivalTime="2015-08-08T06:00:00.000-05:00" FlightTime="210" TravelTime="460" Equipment="763" OnTimePerformance="90" OriginTerminal="1" DestinationTerminal="1"/>
+        <air:FlightDetails Key="JJ30X75WRbiKWXRWofhTfw==" Origin="MSP" Destination="MCO" DepartureTime="2015-08-08T07:05:00.000-05:00" ArrivalTime="2015-08-08T11:10:00.000-04:00" FlightTime="185" TravelTime="460" Equipment="737" OnTimePerformance="90" OriginTerminal="1"/>
+      </air:FlightDetailsList>
+      <air:AirSegmentList>
+        <air:AirSegment Key="mL3r3S2VT2au3LA23HsgAw==" Group="0" Carrier="SY" FlightNumber="398" Origin="SFO" Destination="MSP" DepartureTime="2015-08-08T23:55:00.000-07:00" ArrivalTime="2015-08-09T05:22:00.000-05:00" FlightTime="207" Distance="1586" ETicketability="Yes" Equipment="73G" ChangeOfPlane="false" ParticipantLevel="Standard AVS" LinkAvailability="true" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo BookingCounts="C7|Y7|B7|M7|H7|Q7|V7|L7|W7|I7|Z7|S7"/>
+          </air:AirAvailInfo>
+          <air:FlightDetailsRef Key="hUfX+o4/Qqy5R5SDvNitdA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="T7eTmArcS3esDuqOL7ddXA==" Group="0" Carrier="SY" FlightNumber="341" Origin="MSP" Destination="MCO" DepartureTime="2015-08-09T07:25:00.000-05:00" ArrivalTime="2015-08-09T11:28:00.000-04:00" FlightTime="183" Distance="1304" ETicketability="Yes" Equipment="738" ChangeOfPlane="false" ParticipantLevel="Standard AVS" LinkAvailability="true" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo BookingCounts="C7|Y7|B7|M7|H7|Q7|V7|L7|W7|I7|Z7|S7"/>
+          </air:AirAvailInfo>
+          <air:FlightDetailsRef Key="9dh3gZQyQqWMPpdTESyUsQ=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="UoAKLKeWQl2kjxg1m4CDJg==" Group="0" Carrier="DL" FlightNumber="806" Origin="SFO" Destination="MSP" DepartureTime="2015-08-08T00:30:00.000-07:00" ArrivalTime="2015-08-08T06:00:00.000-05:00" FlightTime="210" Distance="1586" ETicketability="Yes" Equipment="763" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo BookingCounts="F9|P9|A9|G9|Y9|B9|M9|S9|H9|Q9|K9|L9|U9|T9|X9|V9|E9"/>
+          </air:AirAvailInfo>
+          <air:FlightDetailsRef Key="Wuf4YwwQTK+v0LdGfXAygQ=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="55CzDmooT86T/rP18HdrjA==" Group="0" Carrier="DL" FlightNumber="1714" Origin="MSP" Destination="MCO" DepartureTime="2015-08-08T07:05:00.000-05:00" ArrivalTime="2015-08-08T11:10:00.000-04:00" FlightTime="185" Distance="1304" ETicketability="Yes" Equipment="737" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo BookingCounts="F9|P9|A9|G9|Y9|B9|M9|S9|H9|Q9|K9|L9|U9|T9|X0|V0|E0"/>
+          </air:AirAvailInfo>
+          <air:FlightDetailsRef Key="JJ30X75WRbiKWXRWofhTfw=="/>
+        </air:AirSegment>
+      </air:AirSegmentList>
+      <air:FareInfoList>
+        <air:FareInfo Key="Nb+1IRpeRD6vi/zXMu2GKw==" FareBasis="LT" PassengerTypeCode="ADT" Origin="SFO" Destination="MCO" EffectiveDate="2015-08-04T16:32:00.000+00:00" DepartureDate="2015-08-08" Amount="CNY1590" NegotiatedFare="false">
+          <air:FareRuleKey FareInfoRef="Nb+1IRpeRD6vi/zXMu2GKw==" ProviderCode="1G">gws-eJxNjbEOgzAMRD8muv2SJhLZgkBMlA6hQxb+/zN6DlRwkR3ZencupQT6xIGxPORwuNrwrTOwIaje0wch5fSC17SBEtYdl3voy/t5tI4I4sk225uuXpc70IHT4kfDzBwZT2OfxnlXgijm/M/UQT4xC9SvoOMH1zcsgw==</air:FareRuleKey>
+        </air:FareInfo>
+        <air:FareInfo Key="qrAMGk6wTia2Ntqrr34ZTA==" FareBasis="LA00A0VD" PassengerTypeCode="ADT" Origin="SFO" Destination="MCO" EffectiveDate="2015-08-04T16:32:00.000+00:00" DepartureDate="2015-08-08" Amount="CNY2570" NegotiatedFare="false" PrivateFare="PrivateFare" NotValidBefore="2015-08-08" NotValidAfter="2015-08-08">
+          <air:FareTicketDesignator Value="WNUPH"/>
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>3</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="qrAMGk6wTia2Ntqrr34ZTA==" ProviderCode="1G">gws-eJxNjMEKwyAQRD9G5j4bbas3pSb0kCaHNAUv+f/P6KopZMSFZd+8GONAudHTxUsMDpNn7FsGFgz6388VNgQ+ILotoAZzIhO/GafDo7Rjf0XR0kBF2RvtXnPObVrhpGsNON1tqlitO7pebFvKHzVAxIMh/K3j/rJXsColCKCy4wesqi7k</air:FareRuleKey>
+          <air:Brand Key="Rt/bbzKPTcOIJOkqAKDlcQ==" BrandID="5770" UpSellBrandFound="false"/>
+        </air:FareInfo>
+      </air:FareInfoList>
+      <air:RouteList>
+        <air:Route Key="mfYA/SGsR5ezGdsdVYRepw==">
+          <air:Leg Key="h0eWribFRMmIm9KpLBMJ7g==" Group="0" Origin="SFO" Destination="ORL"/>
+        </air:Route>
+      </air:RouteList>
+      <air:AirPricingSolution Key="GCEVtJ2hTxquI/neq/EvWA==" TotalPrice="CNY1851" BasePrice="USD259.53" ApproximateTotalPrice="CNY1851" ApproximateBasePrice="CNY1590" EquivalentBasePrice="CNY1590" Taxes="CNY261" ApproximateTaxes="CNY261">
+        <air:Journey TravelTime="P0DT8H33M0S">
+          <air:AirSegmentRef Key="mL3r3S2VT2au3LA23HsgAw=="/>
+          <air:AirSegmentRef Key="T7eTmArcS3esDuqOL7ddXA=="/>
+        </air:Journey>
+        <air:LegRef Key="h0eWribFRMmIm9KpLBMJ7g=="/>
+        <air:AirPricingInfo Key="1Z8IApgWQCGdWXgCRClANA==" TotalPrice="CNY1851" BasePrice="USD259.53" ApproximateTotalPrice="CNY1851" ApproximateBasePrice="CNY1590" EquivalentBasePrice="CNY1590" Taxes="CNY261" ApproximateTaxes="CNY261" LatestTicketingTime="2015-08-06T23:59:00.000+00:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="HR" ProviderCode="1G">
+          <air:FareInfoRef Key="Nb+1IRpeRD6vi/zXMu2GKw=="/>
+          <air:BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="Nb+1IRpeRD6vi/zXMu2GKw==" SegmentRef="mL3r3S2VT2au3LA23HsgAw=="/>
+          <air:BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="Nb+1IRpeRD6vi/zXMu2GKw==" SegmentRef="T7eTmArcS3esDuqOL7ddXA=="/>
+          <air:TaxInfo Category="AY" Amount="CNY35"/>
+          <air:TaxInfo Category="US" Amount="CNY120"/>
+          <air:TaxInfo Category="XF" Amount="CNY56">
+            <common_v31_0:TaxDetail Amount="USD4.50" OriginAirport="SFO"/>
+            <common_v31_0:TaxDetail Amount="USD4.50" OriginAirport="MSP"/>
+          </air:TaxInfo>
+          <air:TaxInfo Category="ZP" Amount="CNY50">
+            <common_v31_0:TaxDetail Amount="USD4.00" OriginAirport="SFO"/>
+            <common_v31_0:TaxDetail Amount="USD4.00" OriginAirport="MSP"/>
+          </air:TaxInfo>
+          <air:FareCalc>SFO SY X/MSP SY ORL 259.53LT USD259.53END</air:FareCalc>
+          <air:PassengerType Code="ADT"/>
+        </air:AirPricingInfo>
+        <air:Connection SegmentIndex="0"/>
+      </air:AirPricingSolution>
+      <air:AirPricingSolution Key="iZ68mXUgTaSr9gCuRf6Tow==" TotalPrice="CNY2904" BasePrice="USD419.07" ApproximateTotalPrice="CNY2904" ApproximateBasePrice="CNY2570" EquivalentBasePrice="CNY2570" Taxes="CNY334" ApproximateTaxes="CNY334">
+        <air:Journey TravelTime="P0DT7H40M0S">
+          <air:AirSegmentRef Key="UoAKLKeWQl2kjxg1m4CDJg=="/>
+          <air:AirSegmentRef Key="55CzDmooT86T/rP18HdrjA=="/>
+        </air:Journey>
+        <air:LegRef Key="h0eWribFRMmIm9KpLBMJ7g=="/>
+        <air:AirPricingInfo Key="RoCzStvJSASmns1g/NOyMg==" TotalPrice="CNY2904" BasePrice="USD419.07" ApproximateTotalPrice="CNY2904" ApproximateBasePrice="CNY2570" EquivalentBasePrice="CNY2570" Taxes="CNY334" ApproximateTaxes="CNY334" LatestTicketingTime="2015-08-06T23:59:00.000+00:00" PricingMethod="Guaranteed" ProviderCode="1G">
+          <air:FareInfoRef Key="qrAMGk6wTia2Ntqrr34ZTA=="/>
+          <air:BookingInfo BookingCode="A" CabinClass="First" FareInfoRef="qrAMGk6wTia2Ntqrr34ZTA==" SegmentRef="UoAKLKeWQl2kjxg1m4CDJg=="/>
+          <air:BookingInfo BookingCode="A" CabinClass="First" FareInfoRef="qrAMGk6wTia2Ntqrr34ZTA==" SegmentRef="55CzDmooT86T/rP18HdrjA=="/>
+          <air:TaxInfo Category="AY" Amount="CNY35"/>
+          <air:TaxInfo Category="US" Amount="CNY193"/>
+          <air:TaxInfo Category="XF" Amount="CNY56"/>
+          <air:TaxInfo Category="ZP" Amount="CNY50"/>
+          <air:PassengerType Code="ADT"/>
+        </air:AirPricingInfo>
+        <air:Connection SegmentIndex="0"/>
+      </air:AirPricingSolution>
+      <air:BrandList>
+        <air:Brand Key="4neE6XKgTlexmjrAlssG8w==" BrandID="5770" Name="First Class - Internal Name" BrandedDetailsAvailable="true" Carrier="DL">
+          <air:Title Type="External">First Class - External Commercial Brand Name</air:Title>
+          <air:Title Type="Short">Short</air:Title>
+          <air:Text Type="Upsell">First Class - Upsell Marketing Text</air:Text>
+          <air:Text Type="Strapline">First Class - Strap Line</air:Text>
+          <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://merchandisingmanagement.pp.travelport.com/documents/10431/12001/basiceco.png</air:ImageLocation>
+        </air:Brand>
+      </air:BrandList>
+    </air:LowFareSearchRsp>
+  </SOAP:Body>
+</SOAP:Envelope>

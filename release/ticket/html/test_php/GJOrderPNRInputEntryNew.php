@@ -1,0 +1,1 @@
+<html><script type='text/javascript' language='javascript' src='Prototype.js'></script><script type='text/javascript' language='javascript' src='Base.js'></script><body><script type='text/javascript' language='javascript'>Logout('Logout|登录超时自动退出！');</script></body></html>

@@ -1,0 +1,14 @@
+User-agent: *
+Sitemap: http://www.380747.com/sitemap.xml
+Sitemap: http://www.380747.com/robots.txt
+Disallow: /images
+Disallow: /refundfiles
+Disallow: /upload
+Disallow: /bin
+Disallow: /aspnet_client
+Disallow: /*.rar$
+Disallow: /*.zip$
+Disallow: /config
+Disallow: /interface
+Disallow: /javascript
+Disallow: /changelog.php

@@ -1,0 +1,7 @@
+1, need luajit2.X
+compile:
+export LUAJIT_INC=/usr/local/include/luajit-2.0;export LUAJIT_LIB=/usr/local/lib/;./configure --with-debug --add-module=ngx_devel_kit --add-module=lua-nginx-module --with-cc-opt=-DDDEBUG=1 --with-cc-opt='-g -O0' --prefix=/data/menshen/scan
+
+2, support mysql
+http://openresty.org/#DrizzleNginxModule
+drizzle7: ./configure --without-server --enable-static

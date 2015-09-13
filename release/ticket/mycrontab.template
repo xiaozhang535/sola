@@ -1,0 +1,4 @@
+#monitor
+* * * * *   cd <PAR_PWD>/scripts; ./check_alive.sh > ./check_alive.sh.log 2>&1
+#clean_old_log
+#1 2 * * *   cd <PAR_PWD>/scripts; ./clean_oldlog.sh > ./clean_oldlog.log 2>&1

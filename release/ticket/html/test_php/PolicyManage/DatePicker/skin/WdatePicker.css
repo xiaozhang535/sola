@@ -1,0 +1,10 @@
+.Wdate{
+	border:#999 1px solid;
+	background:#fff url(http://www.380747.com/JavaScript/DatePicker/skin/datePicker.png) no-repeat right;
+}
+.Wdate::-ms-clear{display:none;}
+
+.WdateFmtErr{
+	font-weight:bold;
+	color:red;
+}
